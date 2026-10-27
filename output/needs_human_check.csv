@@ -1,0 +1,6 @@
+reason,base_text,tickets,model_topic,final_topic,candidates
+ambiguous,paket tidak aktif setelah pembelian berhasil,622,Package & Quota > Package not active after purchase,Package & Quota > Package not active after purchase,Package & Quota > Package not active after purchase | Billing & Charging > Package charged but not active
+ambiguous,pelanggan menghubungi untuk keperluan lain,342,Others > Unclassified,Others > Unclassified,Others > Unclassified | Others > General enquiry
+model disagrees with review,transaction failed at the outlet but payment was taken,438,Billing & Charging > Balance deducted unexpectedly,Top-up & Voucher > Channel transaction failed,
+model disagrees with review,credited amount is lower than what I paid for,437,Billing & Charging > Wrong tariff,Top-up & Voucher > Wrong amount credited,
+model disagrees with review,transaksi di gerai gagal tapi uang sudah diambil,423,Billing & Charging > Balance deducted unexpectedly,Top-up & Voucher > Channel transaction failed,

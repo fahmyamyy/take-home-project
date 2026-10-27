@@ -56,14 +56,17 @@ CREATE TABLE region_base (
 -- model's cache (output/note_topics_llm.csv) and the human review
 -- (review/topic_review.csv). topic_* is the final label: the reviewed one when a
 -- review exists, otherwise the model's. llm_* keeps the model's raw answer so it
--- can be measured against the review. Empty until `classify` has run.
+-- can be measured against the review. ambiguous marks texts that fit more than
+-- one topic (review/ambiguous.csv): a person decides them and they are reported
+-- apart from the model's clear errors. Empty until `classify` has run.
 CREATE TABLE note_topics (
     base_text         TEXT PRIMARY KEY,
     topic_category    TEXT NOT NULL,
     topic_subcategory TEXT NOT NULL,
     source            TEXT NOT NULL,   -- 'review' or 'llm'
     llm_category      TEXT,
-    llm_subcategory   TEXT
+    llm_subcategory   TEXT,
+    ambiguous         INTEGER NOT NULL DEFAULT 0   -- 1 = listed in review/ambiguous.csv
 );
 
 CREATE INDEX idx_tickets_week       ON tickets (week_start, category, region);

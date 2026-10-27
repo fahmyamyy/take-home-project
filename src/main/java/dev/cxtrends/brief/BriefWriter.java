@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import dev.cxtrends.CxProperties;
 import dev.cxtrends.classify.OllamaClient;
 
 /**
@@ -61,9 +62,11 @@ public class BriefWriter {
             """.formatted(MAX_WORDS);
 
     private final OllamaClient ollama;
+    private final String model;
 
-    public BriefWriter(OllamaClient ollama) {
+    public BriefWriter(OllamaClient ollama, CxProperties props) {
         this.ollama = ollama;
+        this.model = props.ollama().briefModel();
     }
 
     public record Result(String markdown, String generator) {
@@ -71,27 +74,27 @@ public class BriefWriter {
 
     public Result write(BriefFacts facts, String factsJson) {
         String fallback = BriefTemplate.render(facts);
-        if (!ollama.available()) {
-            log.warn("Ollama/{} not available; using the template bottom line", ollama.model());
+        if (!ollama.available(model)) {
+            log.warn("Ollama/{} not available; using the template bottom line", model);
             return new Result(fallback, "template only (Ollama was not available)");
         }
         NumberGuard guard = new NumberGuard(factsJson);
         List<String> required = BriefTemplate.requiredPhrases(facts);
         String feedback = "";
         for (int attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
-            String text = ollama.chat(SYSTEM_PROMPT, "FACTS:\n" + forModel(factsJson) + feedback, null)
+            String text = ollama.chat(model, SYSTEM_PROMPT, "FACTS:\n" + forModel(factsJson) + feedback, null)
                     .strip().replaceFirst("(?i)^\\**bottom line:?\\**:?\\s*", "");
             String problem = check(text, guard, required);
             if (problem == null) {
                 return new Result(BriefTemplate.render(facts, text),
                         "bottom line by %s (attempt %d, numbers checked against brief_facts.json); body from template"
-                                .formatted(ollama.model(), attempt));
+                                .formatted(model, attempt));
             }
             log.info("attempt {} rejected: {}", attempt, problem);
             feedback = "\n\nYour previous answer was rejected: " + problem + ". Try again.";
         }
         log.warn("model bottom line failed the checks {} times; using the template", MAX_ATTEMPTS);
-        return new Result(fallback, "template only (%s failed the checks %d times)".formatted(ollama.model(),
+        return new Result(fallback, "template only (%s failed the checks %d times)".formatted(model,
                 MAX_ATTEMPTS));
     }
 

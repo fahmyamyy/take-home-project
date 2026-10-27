@@ -34,12 +34,8 @@ public class OllamaClient {
         this.http = HttpClient.newBuilder().connectTimeout(config.timeout()).build();
     }
 
-    public String model() {
-        return config.model();
-    }
-
-    /** True if the server answers and has the configured model pulled. */
-    public boolean available() {
+    /** True if the server answers and has {@code model} pulled. */
+    public boolean available(String model) {
         try {
             HttpResponse<String> response = http.send(
                     HttpRequest.newBuilder(URI.create(config.baseUrl() + "/api/tags")).GET().build(),
@@ -48,7 +44,7 @@ public class OllamaClient {
                 return false;
             }
             for (JsonNode m : json.readTree(response.body()).path("models")) {
-                if (m.path("name").asString().equals(config.model())) {
+                if (m.path("name").asString().equals(model)) {
                     return true;
                 }
             }
@@ -66,9 +62,9 @@ public class OllamaClient {
      *
      * @param format null for free text, or a JSON schema the reply must follow
      */
-    public String chat(String system, String user, Map<String, Object> format) {
+    public String chat(String model, String system, String user, Map<String, Object> format) {
         Map<String, Object> body = new java.util.LinkedHashMap<>();
-        body.put("model", config.model());
+        body.put("model", model);
         body.put("stream", false);
         body.put("messages", List.of(
                 Map.of("role", "system", "content", system),

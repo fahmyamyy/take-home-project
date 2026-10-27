@@ -48,12 +48,12 @@ public class ClassifyCommand {
         if (pending.isEmpty()) {
             log.info("all {} complaint texts already classified in {}; Ollama not needed", topics.size(), files.llm().path());
         } else {
-            if (!ollama.available()) {
+            if (!ollama.available(classifier.model())) {
                 throw new IllegalStateException(("%d texts need classifying but Ollama is not reachable or model "
-                        + "'%s' is not pulled. Run: ollama pull %s").formatted(pending.size(), ollama.model(),
-                        ollama.model()));
+                        + "'%s' is not pulled. Run: ollama pull %s").formatted(pending.size(), classifier.model(),
+                        classifier.model()));
             }
-            log.info("classifying {} new complaint texts with {}", pending.size(), ollama.model());
+            log.info("classifying {} new complaint texts with {}", pending.size(), classifier.model());
             for (String text : pending) {
                 TopicLabel topic = classifier.classify(text);
                 topics.put(text, topic);

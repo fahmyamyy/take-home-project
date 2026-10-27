@@ -29,3 +29,11 @@ same failure:
 
 The review applies that rule consistently; the trend analysis reports both
 together as "package activation failures" where that matters.
+
+**Ambiguous texts** (`ambiguous.csv`). Some notes fit more than one topic and no
+rule can settle them. Each is listed with every defensible topic and a short reason.
+The topic in `topic_review.csv` must be one of those candidates; the pipeline refuses
+to load otherwise. Ambiguous texts are reported apart from the model's errors and
+always appear in `output/needs_human_check.csv`, the queue of texts a person must
+look at. That queue also holds texts the model and the review disagree on, and texts
+nobody has reviewed yet.

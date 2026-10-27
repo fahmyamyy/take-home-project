@@ -11,6 +11,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties("cx")
 public record CxProperties(Path dataDir, Path outputDir, Path reviewDir, Path dbPath, Ollama ollama) {
 
-    public record Ollama(String baseUrl, String model, Duration timeout) {
+    /**
+     * @param classifyModel model for note classification (Part 3a)
+     * @param briefModel    model for the brief's bottom line (Part 3b)
+     */
+    public record Ollama(String baseUrl, String classifyModel, String briefModel, Duration timeout) {
     }
 }

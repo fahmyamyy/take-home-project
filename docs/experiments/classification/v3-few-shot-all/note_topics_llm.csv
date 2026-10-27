@@ -1,0 +1,92 @@
+base_text,category,subcategory,note
+aplikasi force close terus menerus,App & Digital,App crash,aplikasi force close terus menerus
+aplikasi sering keluar sendiri saat dibuka,App & Digital,App crash,aplikasi sering keluar sendiri saat dibuka
+app crashes immediately on opening,App & Digital,App crash,Aplikasi langsung crash saat di buka
+"app rejects my login repeatedly, tried reinstalling",App & Digital,App crash,app login error terus menerus
+cannot login to the app since the latest update,App & Digital,Cannot login,"tidak bisa masuk ke aplikasi, selalu gagal login"
+login aplikasi error terus padahal password benar,App & Digital,Cannot login,"login aplikasi error terus, password benar"
+"tidak bisa masuk ke aplikasi, selalu gagal login",App & Digital,Cannot login,cannot log into the operator's app
+"OTP never arrives, cannot complete verification",App & Digital,OTP not received,kode otp tidak pernah masuk ke nomor saya
+kode otp tidak pernah masuk ke nomor saya,App & Digital,OTP not received,kode otp tidak pernah masuk ke nomor saya
+sudah minta kirim ulang otp berkali kali tetap tidak masuk,App & Digital,OTP not received,"tidak bisa masuk ke aplikasi, selalu gagal login"
+"checkout di aplikasi error, tidak bisa selesai",App & Digital,Payment failed in app,"checkout di aplikasi error, tidak bisa selesai"
+in-app payment fails every time at the final step,App & Digital,Payment failed in app,pembayaran di aplikasi gagal terus padahal sudah membayar
+"balance disappeared overnight, no usage recorded",Billing & Charging,Balance deducted unexpectedly,saldo berkurang tiba tiba tanpa ada notifikasi
+main balance reduced without any transaction from my side,Billing & Charging,Balance deducted unexpectedly,main balance reduced without any transaction from my side
+pulsa terpotong sendiri padahal tidak melakukan apa apa,Billing & Charging,Balance deducted unexpectedly,pulsa terpotong sendiri padahal tidak melakukan apa apa
+saldo berkurang tiba tiba tanpa ada notifikasi,Billing & Charging,Balance deducted unexpectedly,saldo berkurang tiba tiba tanpa ada notifikasi
+charged twice for a single package purchase,Billing & Charging,Double charge,terkena charge dua kali untuk pembelian yang sama
+terkena charge dua kali untuk pembelian yang sama,Billing & Charging,Double charge,terkena charge dua kali untuk pembelian yang sama
+"transaksi terpotong dobel, minta dikembalikan",Billing & Charging,Double charge,transaksi top up dikenakan kembali
+"auto renew charged me again, I want it stopped",Billing & Charging,Package charged but not active,package purchase confirmed but quota not showing
+beli paket bulanan pulsa hilang tapi paket tidak jalan,Billing & Charging,Package charged but not active,beli paket bulanan pulsa hilang tapi paket tidak jalan
+package was charged but never activated on my number,Billing & Charging,Package charged but not active,package charged but status is still inactive
+"paid for the unlimited plan, balance deducted, no quota received",Billing & Charging,Package charged but not active,pembelian paket unlimited namun tidak ada kuota yang masuk
+paket tidak aktif setelah pembelian berhasil,Billing & Charging,Package charged but not active,paket tidak aktif setelah pembelian berhasil
+pulsa sudah terpotong untuk paket namun paket tidak aktif,Billing & Charging,Package charged but not active,pulsa terpotong untuk paket tapi paket tidak jalan
+sudah bayar paket tapi kuota tidak masuk sampai sekarang,Billing & Charging,Package charged but not active,already paid for package but quota does not arrive
+sudah beli paket dari aplikasi tapi statusnya tidak aktif,Billing & Charging,Package charged but not active,paket dari aplikasi tidak aktif
+charged a higher rate than advertised for the same package,Billing & Charging,Wrong tariff,tarif paket sama tapi lebih mahal dari yang dijanjikan
+nominal yang masuk tidak sesuai dengan yang dibeli,Billing & Charging,Wrong tariff,nominal top up tidak sesuai dengan yang dibeli
+potongan tarif tidak sesuai ketentuan,Billing & Charging,Wrong tariff,potongan tarif tidak sesuai dengan ketentuan
+tarif yang dikenakan tidak sesuai dengan yang diinformasikan,Billing & Charging,Wrong tariff,tarif yang dikenakan tidak sesuai dengan yang diinformasikan
+calls keep dropping after about one minute,Network Quality,Call drop,ponsel sering terputus saat panggilan berlangsung
+panggilan sering terputus di tengah pembicaraan,Network Quality,Call drop,panggilan sering terputus di tengah pembicaraan
+"telepon putus putus terus, sudah coba beberapa kali tetap sama",Network Quality,Call drop,telepon sering terputus terus
+"voice call disconnects repeatedly, very frustrating",Network Quality,Call drop,panggilan sering terputus di tengah pembicaraan
+"di dalam rumah sinyal jelek, harus keluar dulu baru dapat",Network Quality,Indoor coverage,"sinyal jelek di dalam rumah, harus keluar dulu baru dapat"
+indoor coverage very poor in the office building,Network Quality,Indoor coverage,"sinyal sangat jelek di dalam kantor, hanya bagus di luar"
+sinyal hanya bagus kalau di luar ruangan,Network Quality,Indoor coverage,sinyal hanya bagus kalau di luar ruangan
+"no signal at home since yesterday evening, phone shows emergency only",Network Quality,No signal,"no sinyal di rumah sejak kemarin malam, hp hanya menunjukkan panggilan darurat"
+pelanggan komplain tidak ada sinyal di area rumahnya sudah 2 hari,Network Quality,No signal,tidak ada jaringan sama sekali padahal biasanya penuh
+"signal keeps dropping to zero bars, have restarted the handset twice",Network Quality,No signal,sinyal hilang total sejak kemarin
+"sinyal hilang total sejak kemarin, tidak bisa telepon sama sekali",Network Quality,No signal,"sinyal hilang total sejak kemarin, tidak bisa telepon sama sekali"
+tidak ada jaringan sama sekali padahal biasanya penuh,Network Quality,No signal,tidak ada jaringan sama sekali padahal biasanya penuh
+browsing is extremely slow even though signal shows full bars,Network Quality,Slow data,browsing sangat lambat walaupun sinyal menunjukkan full bar
+"data speed very slow since this morning, cannot open anything",Network Quality,Slow data,"data sangat lambat sejak pagi ini, tidak bisa membuka apapun"
+"internet lemot banget, buka aplikasi saja loading terus",Network Quality,Slow data,"internet lemot banget, buka aplikasi saja loading terus"
+kecepatan internet turun drastis padahal kuota masih banyak,Network Quality,Slow data,kecepatan internet turun drastis padahal kuota masih banyak
+streaming buffering terus menerus dari pagi,Network Quality,Slow data,streaming buffering terus menerus dari pagi
+feedback on the service experience,Others,Feedback,saran untuk peningkatan layanan
+memberikan masukan mengenai pelayanan,Others,Feedback,memberikan masukan mengenai pelayanan
+general question about available services,Others,General enquiry,pertanyaan umum mengenai layanan
+menanyakan informasi umum mengenai layanan,Others,General enquiry,menanyakan informasi umum mengenai layanan
+credited amount is lower than what I paid for,Others,Unclassified,note says nothing about the problem
+ingin tahu cara cek masa aktif,Others,Unclassified,wanna check the validity of my subscription
+nomor lama tidak bisa dipakai lagi katanya sudah hangus,Others,Unclassified,"nomor lama tidak bisa dipakai lagi, katakanlah sudah hangus"
+"other request, not specified",Others,Unclassified,Tidak ada informasi tentang masalah yang dihadapi pelanggan
+pelanggan menghubungi untuk keperluan lain,Others,Unclassified,pelanggan menghubungi untuk keperluan lain
+saran untuk peningkatan layanan,Others,Unclassified,saran untuk peningkatan layanan
+"minta matikan perpanjangan otomatis, sudah tidak butuh",Package & Quota,Auto-renew unwanted,minta matikan perpanjangan otomatis
+paket diperpanjang otomatis padahal tidak diminta,Package & Quota,Auto-renew unwanted,paket diperpanjang otomatis padahal tidak diminta
+package purchase confirmed but quota not showing,Package & Quota,Package not active after purchase,package purchase confirmed but quota not showing
+data allowance drained overnight without heavy usage,Package & Quota,Quota drained fast,data allowance drained overnight without heavy usage
+kuota habis sangat cepat padahal jarang dipakai,Package & Quota,Quota drained fast,kuota habis sangat cepat padahal jarang dipakai
+"pemakaian kuota tidak wajar, habis dalam semalam",Package & Quota,Quota drained fast,"pemakaian kuota tidak wajar, habis dalam semalam"
+"quota finished within two days, normally lasts a month",Package & Quota,Quota drained fast,kuota habis sangat cepat dalam dua hari
+isi paket berbeda dari yang tertulis di katalog,Package & Quota,Quota not as advertised,isi ulang berbeda dari yang tertulis di katalog
+kuota yang didapat tidak sesuai dengan iklan,Package & Quota,Quota not as advertised,kuota yang didapat tidak sesuai dengan iklan
+received less quota than the package description states,Package & Quota,Quota not as advertised,diterima kuota kurang dari yang diuraikan paket
+nomor sudah didaur ulang padahal masih ingin dipakai,Registration & SIM,Number recycled,nomor sudah didaur ulang padahal masih ingin dipakai
+"number was recycled while I was abroad, want it back",Registration & SIM,Number recycled,nomor sudah didaur ulang padahal masih ingin dipakai
+registrasi kartu gagal terus padahal data sudah benar,Registration & SIM,Registration failed,"registrasi kartu gagal terus, selalu error"
+registration keeps failing even with correct identity data,Registration & SIM,Registration failed,registrasi kartu gagal terus padahal data sudah benar
+"tidak bisa registrasi nomor baru, selalu error",Registration & SIM,Registration failed,"cannot register new number, keeps failing"
+SIM card blocked without any prior notification,Registration & SIM,SIM blocked,SIM kartu terblokir tanpa ada notifikasi sebelumnya
+kartu terblokir tidak bisa digunakan sama sekali,Registration & SIM,SIM blocked,kartu terblokir tidak bisa digunakan sama sekali
+nomor tiba tiba terblokir padahal masih aktif,Registration & SIM,SIM blocked,nomor tiba-tiba terblokir padahal masih aktif
+"ganti kartu karena rusak, nomor jangan berubah",Registration & SIM,SIM replacement,"ganti kartu karena rusak, nomor jangan berubah"
+kartu hilang minta penggantian nomor tetap sama,Registration & SIM,SIM replacement,"kartu telp hilang, minta ganti nomor tetap sama"
+need SIM replacement after the card was damaged,Registration & SIM,SIM replacement,"ganti kartu karena rusak, nomor jangan berubah"
+pembayaran di aplikasi gagal terus padahal saldo cukup,Top-up & Voucher,Channel transaction failed,pembayaran lewat mobile banking gagal terus
+pembayaran lewat mobile banking gagal terus,Top-up & Voucher,Channel transaction failed,pembayaran melalui mobile banking gagal terus
+transaction failed at the outlet but payment was taken,Top-up & Voucher,Channel transaction failed,pembayaran lewat mobile banking gagal terus
+transaksi di gerai gagal tapi uang sudah diambil,Top-up & Voucher,Channel transaction failed,transaksi di gerai gagal tapi uang sudah diambil
+isi ulang sudah dibayar tapi pulsa belum masuk,Top-up & Voucher,Top-up not received,isi ulang sudah dibayar tapi pulsa belum masuk
+recharge deducted from e-wallet but not credited to the number,Top-up & Voucher,Top-up not received,top-up di e-wallet tetapi tidak masuk ke nomor
+"sudah transfer untuk isi pulsa, saldo tidak bertambah",Top-up & Voucher,Top-up not received,transfer pulsa selesai tapi saldo tidak naik
+top-up paid at the minimarket but balance never arrived,Top-up & Voucher,Top-up not received,top-up di minimarket tetap saldo tidak masuk
+kode voucher ditolak padahal masih berlaku,Top-up & Voucher,Voucher code rejected,kode voucher ditolak meskipun masih berlaku
+voucher code rejected as invalid but it is not expired,Top-up & Voucher,Voucher code rejected,kode voucher ditolak padahal masih berlaku
+"voucher fisik tidak bisa dipakai, selalu gagal",Top-up & Voucher,Voucher code rejected,"voucher fisik tidak bisa dipakai, selalu gagal"
+isi ulang jumlahnya kurang dari yang dibayar,Top-up & Voucher,Wrong amount credited,isi pulsa seharusnya lebih besar daripada nominal yang masuk

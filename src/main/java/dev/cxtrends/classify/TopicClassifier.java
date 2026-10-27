@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
+import dev.cxtrends.CxProperties;
 import tools.jackson.databind.JsonNode;
 import tools.jackson.databind.ObjectMapper;
 
@@ -20,7 +21,9 @@ import tools.jackson.databind.ObjectMapper;
  *
  * <p>The model must restate the problem <i>before</i> choosing the topic. Generating
  * the label first and a reason after it scored 71/91 against the human review;
- * restating first scored 81/91 with the same model, prompt and taxonomy.
+ * restating first scored 81/91 with the same model, prompt and taxonomy. Written
+ * tie-breaking rules and few-shot examples were tried and did not beat it with this
+ * model; every version is recorded in docs/experiments/classification/.
  */
 @Component
 public class TopicClassifier {
@@ -54,10 +57,16 @@ public class TopicClassifier {
 
     private final OllamaClient ollama;
     private final ObjectMapper json;
+    private final String model;
 
-    public TopicClassifier(OllamaClient ollama, ObjectMapper json) {
+    public TopicClassifier(OllamaClient ollama, ObjectMapper json, CxProperties props) {
         this.ollama = ollama;
         this.json = json;
+        this.model = props.ollama().classifyModel();
+    }
+
+    public String model() {
+        return model;
     }
 
     public TopicLabel classify(String baseText) {
@@ -66,7 +75,7 @@ public class TopicClassifier {
         for (int attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
             String prompt = lastError == null ? user
                     : user + "\n\nYour previous answer was invalid: " + lastError + ". Use a topic exactly as listed.";
-            JsonNode reply = json.readTree(ollama.chat(SYSTEM_PROMPT, prompt, SCHEMA));
+            JsonNode reply = json.readTree(ollama.chat(model, SYSTEM_PROMPT, prompt, SCHEMA));
             String label = reply.path("topic").asString();
             Taxonomy.Topic topic = Taxonomy.findByLabel(label);
             if (topic != null) {

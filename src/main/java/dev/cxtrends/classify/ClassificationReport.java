@@ -15,6 +15,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
 import dev.cxtrends.CxProperties;
+import dev.cxtrends.db.Csv;
 
 /**
  * Writes output/classification_report.md: how good the model is against the
@@ -31,13 +32,21 @@ public class ClassificationReport {
     /** A ticket whose note is a real complaint but which the agent filed as Others › Unclassified. */
     private static final String DUMPED = "(subcategory = 'Unclassified' AND topic_category <> 'Others')";
     private static final String DISAGREE = "(category <> topic_category OR subcategory <> topic_subcategory)";
+    private static final String MODEL_AGREES =
+            "(nt.llm_category = nt.topic_category AND nt.llm_subcategory = nt.topic_subcategory)";
 
     private final JdbcTemplate jdbc;
+    private final TopicFiles files;
+    private final String model;
     private final Path file;
+    private final Path queue;
 
-    public ClassificationReport(JdbcTemplate jdbc, CxProperties props) {
+    public ClassificationReport(JdbcTemplate jdbc, TopicFiles files, CxProperties props) {
         this.jdbc = jdbc;
+        this.files = files;
+        this.model = props.ollama().classifyModel();
         this.file = props.outputDir().resolve("classification_report.md");
+        this.queue = props.outputDir().resolve("needs_human_check.csv");
     }
 
     public void write() {
@@ -57,6 +66,7 @@ public class ClassificationReport {
             throw new UncheckedIOException("write " + file, e);
         }
         log.info("wrote {}", file);
+        writeHumanCheckQueue();
     }
 
     private void summary(StringBuilder md) {
@@ -88,44 +98,115 @@ public class ClassificationReport {
                 .append("- The habit is uniform (≈15% across every channel, region, priority and topic — see below), ")
                 .append("so agent-labelled volumes **miss about 15% of every real topic** (our counts are ~18% higher) ")
                 .append("while keeping the shape of its trend. *Others* looks \"large\" mostly because of it.\n")
-                .append("- The local model (`qwen2.5:3b`) agreed with the human review on **%s of %s** distinct texts "
-                        .formatted(m.get("agree_texts"), m.get("texts")))
-                .append("(%s of tickets). Final topics use the review.\n\n".formatted(
-                        pct(num(m.get("agree_tickets")), num(m.get("tickets")))));
+                .append("- The local model (`%s`) agreed with the human review on **%s of %s** distinct texts "
+                        .formatted(model, m.get("agree_texts"), m.get("texts")))
+                .append("(%s of tickets); on the %s texts with one clear topic, **%s of %s**. Final topics use the review.\n"
+                        .formatted(pct(num(m.get("agree_tickets")), num(m.get("tickets"))), m.get("clear_texts"),
+                                m.get("clear_agree_texts"), m.get("clear_texts")))
+                .append("- **%s texts (%s tickets) fit more than one topic.** They are listed apart in section 1b, "
+                        .formatted(m.get("ambiguous_texts"), fmt(num(m.get("ambiguous_tickets")))))
+                .append("a person decides each, and every text that needs a person is queued in ")
+                .append("`output/needs_human_check.csv`.\n\n");
     }
 
     private Map<String, Object> modelCounts() {
         return jdbc.queryForMap("""
                 SELECT COUNT(DISTINCT nt.base_text) AS texts,
-                       COUNT(DISTINCT CASE WHEN nt.llm_category = nt.topic_category
-                                            AND nt.llm_subcategory = nt.topic_subcategory THEN nt.base_text END) AS agree_texts,
+                       COUNT(DISTINCT CASE WHEN %1$s THEN nt.base_text END) AS agree_texts,
+                       COUNT(DISTINCT CASE WHEN NOT nt.ambiguous THEN nt.base_text END) AS clear_texts,
+                       COUNT(DISTINCT CASE WHEN NOT nt.ambiguous AND %1$s THEN nt.base_text END) AS clear_agree_texts,
+                       COUNT(DISTINCT CASE WHEN nt.ambiguous THEN nt.base_text END) AS ambiguous_texts,
+                       SUM(nt.ambiguous) AS ambiguous_tickets,
                        COUNT(*) AS tickets,
-                       SUM(nt.llm_category = nt.topic_category AND nt.llm_subcategory = nt.topic_subcategory) AS agree_tickets
+                       SUM(%1$s) AS agree_tickets
                 FROM note_topics nt
                 JOIN ticket_notes n USING (base_text)
-                """);
+                """.formatted(MODEL_AGREES));
     }
 
     private void modelQuality(StringBuilder md) {
         md.append("## 1. How good is the model?\n\n")
                 .append("Notes reduce to 91 distinct complaint texts once repeat-contact prefixes ")
-                .append("(\"follow up dari laporan kemarin, …\") are removed. Each was classified once by `qwen2.5:3b` ")
-                .append("and, separately, reviewed by a person (`review/topic_review.csv`). Where they differ:\n\n");
+                .append("(\"follow up dari laporan kemarin, …\") are removed. Each was classified once by `%s` "
+                        .formatted(model))
+                .append("and, separately, reviewed by a person (`review/topic_review.csv`).\n\n")
+                .append("### 1a. Model errors on texts with one clear topic\n\n");
         List<Map<String, Object>> rows = jdbc.queryForList("""
                 SELECT nt.base_text, nt.llm_category || ' › ' || nt.llm_subcategory AS model,
                        nt.topic_category || ' › ' || nt.topic_subcategory AS reviewed, COUNT(*) AS tickets
                 FROM note_topics nt JOIN ticket_notes n USING (base_text)
-                WHERE nt.llm_category <> nt.topic_category OR nt.llm_subcategory <> nt.topic_subcategory
+                WHERE NOT nt.ambiguous AND NOT %s
                 GROUP BY nt.base_text ORDER BY tickets DESC
-                """);
+                """.formatted(MODEL_AGREES));
         table(md, List.of("Note text", "Model said", "Review", "Tickets"), rows.stream()
                 .map(r -> List.of(r.get("base_text").toString(), r.get("model").toString(), r.get("reviewed").toString(),
                         fmt(num(r.get("tickets")))))
                 .toList());
-        md.append("\nThe errors are near-misses between neighbouring topics (charge vs activation, top-up vs balance), ")
-                .append("plus vague notes the model over-interprets. A prompt that makes the model restate the problem ")
-                .append("before choosing a label lifted agreement from 71 to 81 of 91 texts; the remaining errors are why ")
-                .append("a human review stays in the loop.\n\n");
+        md.append("\nEvery prompt version tried, with its score and errors, is in ")
+                .append("`docs/experiments/classification/`. The remaining errors are why a human review stays in the loop.\n\n")
+                .append("### 1b. Ambiguous texts: decided by a person\n\n")
+                .append("These notes fit more than one topic (`review/ambiguous.csv`). They are not counted as model ")
+                .append("errors, and they always go to the human-check queue.\n\n");
+        Map<String, AmbiguousText> ambiguous = files.ambiguous();
+        List<Map<String, Object>> amb = jdbc.queryForList("""
+                SELECT nt.base_text, nt.llm_category || ' › ' || nt.llm_subcategory AS model,
+                       nt.topic_category || ' › ' || nt.topic_subcategory AS decided, COUNT(*) AS tickets
+                FROM note_topics nt JOIN ticket_notes n USING (base_text)
+                WHERE nt.ambiguous
+                GROUP BY nt.base_text ORDER BY tickets DESC
+                """);
+        table(md, List.of("Note text", "Defensible topics", "Decided", "Model said", "Tickets", "Why"), amb.stream()
+                .map(r -> {
+                    AmbiguousText a = ambiguous.get(r.get("base_text").toString());
+                    return List.of(r.get("base_text").toString(),
+                            String.join(" / ", a.candidates()).replace(" > ", " › "), r.get("decided").toString(),
+                            r.get("model").toString(), fmt(num(r.get("tickets"))), a.note());
+                })
+                .toList());
+        md.append('\n');
+    }
+
+    /**
+     * Writes output/needs_human_check.csv: every distinct text a person must look at,
+     * with the reason. Ambiguous texts are always listed; so are texts the model and
+     * the review disagree on, and texts nobody has reviewed yet.
+     */
+    private void writeHumanCheckQueue() {
+        Map<String, AmbiguousText> ambiguous = files.ambiguous();
+        List<Map<String, Object>> rows = jdbc.queryForList("""
+                SELECT nt.base_text, nt.ambiguous, nt.source,
+                       nt.llm_category || ' > ' || nt.llm_subcategory AS model,
+                       nt.topic_category || ' > ' || nt.topic_subcategory AS final_topic,
+                       %s AS agrees, COUNT(*) AS tickets
+                FROM note_topics nt JOIN ticket_notes n USING (base_text)
+                GROUP BY nt.base_text
+                ORDER BY nt.ambiguous DESC, tickets DESC
+                """.formatted(MODEL_AGREES));
+        List<String> lines = new ArrayList<>();
+        lines.add("reason,base_text,tickets,model_topic,final_topic,candidates");
+        for (Map<String, Object> r : rows) {
+            String text = r.get("base_text").toString();
+            String reason;
+            if (num(r.get("ambiguous")) == 1) {
+                reason = "ambiguous";
+            } else if ("llm".equals(r.get("source"))) {
+                reason = "not reviewed";
+            } else if (num(r.get("agrees")) == 0) {
+                reason = "model disagrees with review";
+            } else {
+                continue;
+            }
+            AmbiguousText a = ambiguous.get(text);
+            lines.add(String.join(",", Csv.escape(reason), Csv.escape(text), String.valueOf(num(r.get("tickets"))),
+                    Csv.escape(String.valueOf(r.get("model"))), Csv.escape(r.get("final_topic").toString()),
+                    Csv.escape(a == null ? "" : String.join(" | ", a.candidates()))));
+        }
+        try {
+            Files.write(queue, lines);
+        } catch (IOException e) {
+            throw new UncheckedIOException("write " + queue, e);
+        }
+        log.info("wrote {} ({} texts need a person)", queue, lines.size() - 1);
     }
 
     private void confusion(StringBuilder md) {

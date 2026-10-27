@@ -55,4 +55,4 @@
 - [x] 7.2 README: more time, deliberately left out, 5M-ticket limits, AI-assistant disclosure
 - [x] 7.3 `docs/PLANNING.md` with decisions, alternatives and trade-offs; `docs/experiments/` for the rejected full-LLM brief
 - [x] 7.4 Verify from a clean copy: build plus tests pass and regenerated outputs match the committed ones
-- [ ] 7.5 Publish as a private Git repository
+- [x] 7.5 Publish as a private Git repository

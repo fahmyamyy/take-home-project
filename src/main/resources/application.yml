@@ -5,7 +5,8 @@ cx:
   db-path: cx.db
   ollama:
     base-url: http://localhost:11434
-    model: qwen2.5:3b
+    classify-model: qwen2.5:7b   # 88/91 vs 81/91 for 3b; see docs/experiments/classification
+    brief-model: qwen2.5:3b      # its bottom line passes every check
     timeout: 120s
 
 spring:

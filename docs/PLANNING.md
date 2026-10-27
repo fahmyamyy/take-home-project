@@ -170,7 +170,7 @@ Pipeline:
 
 1. **Normalise:** strip repeat-contact prefixes (recursively), giving 91 base
    texts. Record `followup_depth` per ticket.
-2. **Classify** each base text once with Ollama `qwen2.5:3b` into the **agents' own
+2. **Classify** each base text once with Ollama `qwen2.5:7b` into the **agents' own
    taxonomy** (7 categories / 27 subcategories), so the two labellings are directly
    comparable. Each subcategory gets a one-line definition in `Taxonomy.java`
    (the agents work without one).
@@ -189,16 +189,32 @@ What we learned getting the model to behave (measured against the review):
 | one `topic` field constrained to an **enum** of valid labels, reason after | 71 / 91 | Ollama constrained decoding: no invalid labels possible |
 | **restate the problem first**, then choose the topic | **81 / 91** | same model, prompt and taxonomy |
 | larger `qwen3.5` for comparison | n/a | ignored the output schema; dropped |
+| + written tie-breaking rules | 81 / 91 | errors moved, none net fixed; rules came from v1's errors |
+| + all other reviewed labels as examples (leave-one-out) | 81 / 91 | same: a 3B model can't use 90 examples |
+| + 8 most similar reviewed labels | 69 / 91 | word overlap picks look-alikes; model copies them |
+| **same restate-first prompt on `qwen2.5:7b`** | **88 / 91** | nothing tuned; 86 / 89 on texts with one clear topic |
+
+Every version, its raw output and its errors: `docs/experiments/classification/`.
+Classification uses `qwen2.5:7b` (`cx.ollama.classify-model`); the brief keeps
+`qwen2.5:3b` (`cx.ollama.brief-model`), whose bottom line already passes every check.
+The 7B model needs ~5 GB of RAM, which is tight on an 8 GB laptop; reviewers without
+it still get the committed labels.
+
+**Ambiguous texts** are kept apart: `review/ambiguous.csv` lists each text that fits
+more than one topic, with the candidates. A person decides them, they are not counted
+as model errors, and they always go to `output/needs_human_check.csv` together with
+texts the model and the review disagree on.
 
 | Option | Pros | Cons | Verdict |
 |---|---|---|---|
-| Ollama `qwen2.5:3b` + review | Handles mixed Indonesian/English; matches the PDF's suggested model; runs on 8 GB; review makes final labels trustworthy | Needs Ollama to re-run (cache removes that for reviewers) | **Chosen** |
+| Ollama `qwen2.5:7b` + review | Handles mixed Indonesian/English; 88 / 91 with no tuning; review makes final labels trustworthy | ~5 GB RAM, tight on 8 GB; needs Ollama to re-run (the committed cache removes that for reviewers) | **Chosen** |
+| Ollama `qwen2.5:3b` (the PDF's example) + review | Runs comfortably on 8 GB | 81 / 91; prompt tricks did not raise it | Kept for the brief only |
 | Keyword / TF-IDF + k-means in Java | Deterministic, zero deps | Clusters need manual naming; brittle with bilingual synonyms | Rejected (kept as an idea for scale, §7) |
 | Free-tier cloud API | Best quality | Customer notes leave the laptop | Rejected |
 
 **Why review every label:** with 91 texts it takes about 15 minutes, and it turns
-"the LLM says" into a reviewed fact. The model's 89% is then the number that
-tells us how far it could be trusted on unreviewed data at scale.
+"the LLM says" into a reviewed fact. The model's score (97% of tickets for 7B) is then the number
+that tells us how far it could be trusted on unreviewed data at scale.
 
 ### 4.7 Part 2: anomaly rule, a rolling median ± 3 × MAD over the previous 8 weeks
 
@@ -288,7 +304,7 @@ wording of the body is too.
 
 ## 5. Testing
 
-34 tests, `./mvnw package` runs them all.
+37 tests, `./mvnw package` runs them all.
 
 | Layer | Test |
 |---|---|
@@ -355,6 +371,8 @@ and chosen by the author, who can explain each one.
 | 2026-10-27 | Maven wrapper 3.10.0 → 3.9.16: IntelliJ 2025.3 failed to import the project with 3.10.0 | author |
 | 2026-10-27 | Bottom line: fixed shape (problem, ask, everything else explained), filler and category-prefix checks | author |
 | 2026-10-27 | Brief "Needs attention": one heading per item with short labelled bullets and an impact table, instead of one dense paragraph; SLA items now marked new vs chronic by comparing with the baseline (≥ 10 points), not hard-coded as "not new" | author |
+| 2026-10-27 | Classification experiments v2–v5 (rules, few-shot, nearest few-shot, 7B); classification moved to `qwen2.5:7b` (81 → 88 / 91), brief stays on 3B | author |
+| 2026-10-27 | Ambiguous texts separated (`review/ambiguous.csv`) and queued with all other texts that need a person (`output/needs_human_check.csv`) | author |
 | 2026-10-26 | **SQLite instead of DuckDB** | author |
 | 2026-10-26 | Classifier: enum-constrained topic, restate-then-label prompt (71 → 81 / 91) | measured |
 | 2026-10-26 | Separate model cache from human review; final topic = review | design |

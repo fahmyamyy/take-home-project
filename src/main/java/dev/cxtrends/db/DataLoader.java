@@ -19,6 +19,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.support.TransactionTemplate;
 
 import dev.cxtrends.CxProperties;
+import dev.cxtrends.classify.AmbiguousText;
 import dev.cxtrends.classify.NoteNormalizer;
 import dev.cxtrends.classify.TopicFiles;
 import dev.cxtrends.classify.TopicLabel;
@@ -73,6 +74,14 @@ public class DataLoader implements InitializingBean {
         jdbc.update("DELETE FROM note_topics");
         Map<String, TopicLabel> llm = topicFiles.llm().load();
         Map<String, TopicLabel> review = topicFiles.review().load();
+        Map<String, AmbiguousText> ambiguous = topicFiles.ambiguous();
+        for (AmbiguousText a : ambiguous.values()) {
+            TopicLabel decided = review.get(a.baseText());
+            if (decided == null || !a.candidates().contains(decided.category() + " > " + decided.subcategory())) {
+                throw new IllegalStateException(("'%s' is marked ambiguous but its reviewed label is not one of its "
+                        + "candidates %s; a person must decide it in topic_review.csv").formatted(a.baseText(), a.candidates()));
+            }
+        }
         java.util.Set<String> texts = new java.util.TreeSet<>(llm.keySet());
         texts.addAll(review.keySet());
         List<Object[]> rows = new ArrayList<>();
@@ -81,9 +90,10 @@ public class DataLoader implements InitializingBean {
             TopicLabel reviewed = review.get(text);
             TopicLabel chosen = reviewed != null ? reviewed : model;
             rows.add(new Object[] {text, chosen.category(), chosen.subcategory(), reviewed != null ? "review" : "llm",
-                    model == null ? null : model.category(), model == null ? null : model.subcategory()});
+                    model == null ? null : model.category(), model == null ? null : model.subcategory(),
+                    ambiguous.containsKey(text) ? 1 : 0});
         }
-        jdbc.batchUpdate("INSERT INTO note_topics VALUES (?, ?, ?, ?, ?, ?)", rows);
+        jdbc.batchUpdate("INSERT INTO note_topics VALUES (?, ?, ?, ?, ?, ?, ?)", rows);
     }
 
     private void loadTickets() {
