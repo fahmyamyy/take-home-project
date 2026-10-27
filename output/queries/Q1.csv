@@ -1,0 +1,1093 @@
+week_start,category,region,tickets,subscriber_base,per_1k_subscribers
+2026-03-23,App & Digital,Jabodetabek,35,8900000,0.0039
+2026-03-23,App & Digital,Jawa Barat,28,6400000,0.0044
+2026-03-23,App & Digital,Jawa Timur,22,5600000,0.0039
+2026-03-23,App & Digital,Kalimantan Timur,6,620000,0.0097
+2026-03-23,App & Digital,Sulawesi Selatan,10,2200000,0.0045
+2026-03-23,App & Digital,Sumatera Utara,19,3100000,0.0061
+2026-03-23,Billing & Charging,Jabodetabek,65,8900000,0.0073
+2026-03-23,Billing & Charging,Jawa Barat,48,6400000,0.0075
+2026-03-23,Billing & Charging,Jawa Timur,27,5600000,0.0048
+2026-03-23,Billing & Charging,Kalimantan Timur,18,620000,0.029
+2026-03-23,Billing & Charging,Sulawesi Selatan,14,2200000,0.0064
+2026-03-23,Billing & Charging,Sumatera Utara,21,3100000,0.0068
+2026-03-23,Network Quality,Jabodetabek,118,8900000,0.0133
+2026-03-23,Network Quality,Jawa Barat,89,6400000,0.0139
+2026-03-23,Network Quality,Jawa Timur,58,5600000,0.0104
+2026-03-23,Network Quality,Kalimantan Timur,14,620000,0.0226
+2026-03-23,Network Quality,Sulawesi Selatan,28,2200000,0.0127
+2026-03-23,Network Quality,Sumatera Utara,52,3100000,0.0168
+2026-03-23,Others,Jabodetabek,102,8900000,0.0115
+2026-03-23,Others,Jawa Barat,68,6400000,0.0106
+2026-03-23,Others,Jawa Timur,55,5600000,0.0098
+2026-03-23,Others,Kalimantan Timur,18,620000,0.029
+2026-03-23,Others,Sulawesi Selatan,25,2200000,0.0114
+2026-03-23,Others,Sumatera Utara,41,3100000,0.0132
+2026-03-23,Package & Quota,Jabodetabek,81,8900000,0.0091
+2026-03-23,Package & Quota,Jawa Barat,43,6400000,0.0067
+2026-03-23,Package & Quota,Jawa Timur,60,5600000,0.0107
+2026-03-23,Package & Quota,Kalimantan Timur,18,620000,0.029
+2026-03-23,Package & Quota,Sulawesi Selatan,25,2200000,0.0114
+2026-03-23,Package & Quota,Sumatera Utara,30,3100000,0.0097
+2026-03-23,Registration & SIM,Jabodetabek,46,8900000,0.0052
+2026-03-23,Registration & SIM,Jawa Barat,26,6400000,0.0041
+2026-03-23,Registration & SIM,Jawa Timur,17,5600000,0.003
+2026-03-23,Registration & SIM,Kalimantan Timur,6,620000,0.0097
+2026-03-23,Registration & SIM,Sulawesi Selatan,17,2200000,0.0077
+2026-03-23,Registration & SIM,Sumatera Utara,15,3100000,0.0048
+2026-03-23,Top-up & Voucher,Jabodetabek,56,8900000,0.0063
+2026-03-23,Top-up & Voucher,Jawa Barat,27,6400000,0.0042
+2026-03-23,Top-up & Voucher,Jawa Timur,34,5600000,0.0061
+2026-03-23,Top-up & Voucher,Kalimantan Timur,12,620000,0.0194
+2026-03-23,Top-up & Voucher,Sulawesi Selatan,13,2200000,0.0059
+2026-03-23,Top-up & Voucher,Sumatera Utara,25,3100000,0.0081
+2026-03-30,App & Digital,Jabodetabek,44,8900000,0.0049
+2026-03-30,App & Digital,Jawa Barat,26,6400000,0.0041
+2026-03-30,App & Digital,Jawa Timur,24,5600000,0.0043
+2026-03-30,App & Digital,Kalimantan Timur,8,620000,0.0129
+2026-03-30,App & Digital,Sulawesi Selatan,11,2200000,0.005
+2026-03-30,App & Digital,Sumatera Utara,15,3100000,0.0048
+2026-03-30,Billing & Charging,Jabodetabek,72,8900000,0.0081
+2026-03-30,Billing & Charging,Jawa Barat,40,6400000,0.0063
+2026-03-30,Billing & Charging,Jawa Timur,39,5600000,0.007
+2026-03-30,Billing & Charging,Kalimantan Timur,14,620000,0.0226
+2026-03-30,Billing & Charging,Sulawesi Selatan,11,2200000,0.005
+2026-03-30,Billing & Charging,Sumatera Utara,25,3100000,0.0081
+2026-03-30,Network Quality,Jabodetabek,145,8900000,0.0163
+2026-03-30,Network Quality,Jawa Barat,82,6400000,0.0128
+2026-03-30,Network Quality,Jawa Timur,81,5600000,0.0145
+2026-03-30,Network Quality,Kalimantan Timur,26,620000,0.0419
+2026-03-30,Network Quality,Sulawesi Selatan,35,2200000,0.0159
+2026-03-30,Network Quality,Sumatera Utara,63,3100000,0.0203
+2026-03-30,Others,Jabodetabek,87,8900000,0.0098
+2026-03-30,Others,Jawa Barat,71,6400000,0.0111
+2026-03-30,Others,Jawa Timur,69,5600000,0.0123
+2026-03-30,Others,Kalimantan Timur,19,620000,0.0306
+2026-03-30,Others,Sulawesi Selatan,23,2200000,0.0105
+2026-03-30,Others,Sumatera Utara,43,3100000,0.0139
+2026-03-30,Package & Quota,Jabodetabek,78,8900000,0.0088
+2026-03-30,Package & Quota,Jawa Barat,54,6400000,0.0084
+2026-03-30,Package & Quota,Jawa Timur,43,5600000,0.0077
+2026-03-30,Package & Quota,Kalimantan Timur,17,620000,0.0274
+2026-03-30,Package & Quota,Sulawesi Selatan,16,2200000,0.0073
+2026-03-30,Package & Quota,Sumatera Utara,43,3100000,0.0139
+2026-03-30,Registration & SIM,Jabodetabek,41,8900000,0.0046
+2026-03-30,Registration & SIM,Jawa Barat,25,6400000,0.0039
+2026-03-30,Registration & SIM,Jawa Timur,26,5600000,0.0046
+2026-03-30,Registration & SIM,Kalimantan Timur,8,620000,0.0129
+2026-03-30,Registration & SIM,Sulawesi Selatan,15,2200000,0.0068
+2026-03-30,Registration & SIM,Sumatera Utara,18,3100000,0.0058
+2026-03-30,Top-up & Voucher,Jabodetabek,44,8900000,0.0049
+2026-03-30,Top-up & Voucher,Jawa Barat,44,6400000,0.0069
+2026-03-30,Top-up & Voucher,Jawa Timur,36,5600000,0.0064
+2026-03-30,Top-up & Voucher,Kalimantan Timur,12,620000,0.0194
+2026-03-30,Top-up & Voucher,Sulawesi Selatan,11,2200000,0.005
+2026-03-30,Top-up & Voucher,Sumatera Utara,26,3100000,0.0084
+2026-04-06,App & Digital,Jabodetabek,38,8900000,0.0043
+2026-04-06,App & Digital,Jawa Barat,29,6400000,0.0045
+2026-04-06,App & Digital,Jawa Timur,20,5600000,0.0036
+2026-04-06,App & Digital,Kalimantan Timur,7,620000,0.0113
+2026-04-06,App & Digital,Sulawesi Selatan,9,2200000,0.0041
+2026-04-06,App & Digital,Sumatera Utara,14,3100000,0.0045
+2026-04-06,Billing & Charging,Jabodetabek,57,8900000,0.0064
+2026-04-06,Billing & Charging,Jawa Barat,28,6400000,0.0044
+2026-04-06,Billing & Charging,Jawa Timur,42,5600000,0.0075
+2026-04-06,Billing & Charging,Kalimantan Timur,11,620000,0.0177
+2026-04-06,Billing & Charging,Sulawesi Selatan,16,2200000,0.0073
+2026-04-06,Billing & Charging,Sumatera Utara,39,3100000,0.0126
+2026-04-06,Network Quality,Jabodetabek,89,8900000,0.01
+2026-04-06,Network Quality,Jawa Barat,87,6400000,0.0136
+2026-04-06,Network Quality,Jawa Timur,52,5600000,0.0093
+2026-04-06,Network Quality,Kalimantan Timur,24,620000,0.0387
+2026-04-06,Network Quality,Sulawesi Selatan,24,2200000,0.0109
+2026-04-06,Network Quality,Sumatera Utara,41,3100000,0.0132
+2026-04-06,Others,Jabodetabek,86,8900000,0.0097
+2026-04-06,Others,Jawa Barat,61,6400000,0.0095
+2026-04-06,Others,Jawa Timur,56,5600000,0.01
+2026-04-06,Others,Kalimantan Timur,17,620000,0.0274
+2026-04-06,Others,Sulawesi Selatan,30,2200000,0.0136
+2026-04-06,Others,Sumatera Utara,49,3100000,0.0158
+2026-04-06,Package & Quota,Jabodetabek,56,8900000,0.0063
+2026-04-06,Package & Quota,Jawa Barat,44,6400000,0.0069
+2026-04-06,Package & Quota,Jawa Timur,46,5600000,0.0082
+2026-04-06,Package & Quota,Kalimantan Timur,13,620000,0.021
+2026-04-06,Package & Quota,Sulawesi Selatan,13,2200000,0.0059
+2026-04-06,Package & Quota,Sumatera Utara,30,3100000,0.0097
+2026-04-06,Registration & SIM,Jabodetabek,45,8900000,0.0051
+2026-04-06,Registration & SIM,Jawa Barat,36,6400000,0.0056
+2026-04-06,Registration & SIM,Jawa Timur,28,5600000,0.005
+2026-04-06,Registration & SIM,Kalimantan Timur,6,620000,0.0097
+2026-04-06,Registration & SIM,Sulawesi Selatan,7,2200000,0.0032
+2026-04-06,Registration & SIM,Sumatera Utara,14,3100000,0.0045
+2026-04-06,Top-up & Voucher,Jabodetabek,39,8900000,0.0044
+2026-04-06,Top-up & Voucher,Jawa Barat,39,6400000,0.0061
+2026-04-06,Top-up & Voucher,Jawa Timur,23,5600000,0.0041
+2026-04-06,Top-up & Voucher,Kalimantan Timur,10,620000,0.0161
+2026-04-06,Top-up & Voucher,Sulawesi Selatan,15,2200000,0.0068
+2026-04-06,Top-up & Voucher,Sumatera Utara,27,3100000,0.0087
+2026-04-13,App & Digital,Jabodetabek,36,8900000,0.004
+2026-04-13,App & Digital,Jawa Barat,22,6400000,0.0034
+2026-04-13,App & Digital,Jawa Timur,23,5600000,0.0041
+2026-04-13,App & Digital,Kalimantan Timur,8,620000,0.0129
+2026-04-13,App & Digital,Sulawesi Selatan,8,2200000,0.0036
+2026-04-13,App & Digital,Sumatera Utara,17,3100000,0.0055
+2026-04-13,Billing & Charging,Jabodetabek,51,8900000,0.0057
+2026-04-13,Billing & Charging,Jawa Barat,40,6400000,0.0063
+2026-04-13,Billing & Charging,Jawa Timur,49,5600000,0.0088
+2026-04-13,Billing & Charging,Kalimantan Timur,16,620000,0.0258
+2026-04-13,Billing & Charging,Sulawesi Selatan,20,2200000,0.0091
+2026-04-13,Billing & Charging,Sumatera Utara,21,3100000,0.0068
+2026-04-13,Network Quality,Jabodetabek,91,8900000,0.0102
+2026-04-13,Network Quality,Jawa Barat,68,6400000,0.0106
+2026-04-13,Network Quality,Jawa Timur,69,5600000,0.0123
+2026-04-13,Network Quality,Kalimantan Timur,24,620000,0.0387
+2026-04-13,Network Quality,Sulawesi Selatan,24,2200000,0.0109
+2026-04-13,Network Quality,Sumatera Utara,34,3100000,0.011
+2026-04-13,Others,Jabodetabek,99,8900000,0.0111
+2026-04-13,Others,Jawa Barat,56,6400000,0.0088
+2026-04-13,Others,Jawa Timur,61,5600000,0.0109
+2026-04-13,Others,Kalimantan Timur,19,620000,0.0306
+2026-04-13,Others,Sulawesi Selatan,24,2200000,0.0109
+2026-04-13,Others,Sumatera Utara,34,3100000,0.011
+2026-04-13,Package & Quota,Jabodetabek,73,8900000,0.0082
+2026-04-13,Package & Quota,Jawa Barat,47,6400000,0.0073
+2026-04-13,Package & Quota,Jawa Timur,32,5600000,0.0057
+2026-04-13,Package & Quota,Kalimantan Timur,15,620000,0.0242
+2026-04-13,Package & Quota,Sulawesi Selatan,27,2200000,0.0123
+2026-04-13,Package & Quota,Sumatera Utara,24,3100000,0.0077
+2026-04-13,Registration & SIM,Jabodetabek,40,8900000,0.0045
+2026-04-13,Registration & SIM,Jawa Barat,24,6400000,0.0037
+2026-04-13,Registration & SIM,Jawa Timur,26,5600000,0.0046
+2026-04-13,Registration & SIM,Kalimantan Timur,7,620000,0.0113
+2026-04-13,Registration & SIM,Sulawesi Selatan,11,2200000,0.005
+2026-04-13,Registration & SIM,Sumatera Utara,16,3100000,0.0052
+2026-04-13,Top-up & Voucher,Jabodetabek,50,8900000,0.0056
+2026-04-13,Top-up & Voucher,Jawa Barat,46,6400000,0.0072
+2026-04-13,Top-up & Voucher,Jawa Timur,33,5600000,0.0059
+2026-04-13,Top-up & Voucher,Kalimantan Timur,9,620000,0.0145
+2026-04-13,Top-up & Voucher,Sulawesi Selatan,11,2200000,0.005
+2026-04-13,Top-up & Voucher,Sumatera Utara,28,3100000,0.009
+2026-04-20,App & Digital,Jabodetabek,38,8900000,0.0043
+2026-04-20,App & Digital,Jawa Barat,25,6400000,0.0039
+2026-04-20,App & Digital,Jawa Timur,22,5600000,0.0039
+2026-04-20,App & Digital,Kalimantan Timur,10,620000,0.0161
+2026-04-20,App & Digital,Sulawesi Selatan,5,2200000,0.0023
+2026-04-20,App & Digital,Sumatera Utara,12,3100000,0.0039
+2026-04-20,Billing & Charging,Jabodetabek,62,8900000,0.007
+2026-04-20,Billing & Charging,Jawa Barat,67,6400000,0.0105
+2026-04-20,Billing & Charging,Jawa Timur,29,5600000,0.0052
+2026-04-20,Billing & Charging,Kalimantan Timur,15,620000,0.0242
+2026-04-20,Billing & Charging,Sulawesi Selatan,17,2200000,0.0077
+2026-04-20,Billing & Charging,Sumatera Utara,34,3100000,0.011
+2026-04-20,Network Quality,Jabodetabek,106,8900000,0.0119
+2026-04-20,Network Quality,Jawa Barat,81,6400000,0.0127
+2026-04-20,Network Quality,Jawa Timur,91,5600000,0.0163
+2026-04-20,Network Quality,Kalimantan Timur,26,620000,0.0419
+2026-04-20,Network Quality,Sulawesi Selatan,35,2200000,0.0159
+2026-04-20,Network Quality,Sumatera Utara,40,3100000,0.0129
+2026-04-20,Others,Jabodetabek,93,8900000,0.0104
+2026-04-20,Others,Jawa Barat,62,6400000,0.0097
+2026-04-20,Others,Jawa Timur,61,5600000,0.0109
+2026-04-20,Others,Kalimantan Timur,25,620000,0.0403
+2026-04-20,Others,Sulawesi Selatan,21,2200000,0.0095
+2026-04-20,Others,Sumatera Utara,33,3100000,0.0106
+2026-04-20,Package & Quota,Jabodetabek,55,8900000,0.0062
+2026-04-20,Package & Quota,Jawa Barat,34,6400000,0.0053
+2026-04-20,Package & Quota,Jawa Timur,54,5600000,0.0096
+2026-04-20,Package & Quota,Kalimantan Timur,12,620000,0.0194
+2026-04-20,Package & Quota,Sulawesi Selatan,19,2200000,0.0086
+2026-04-20,Package & Quota,Sumatera Utara,25,3100000,0.0081
+2026-04-20,Registration & SIM,Jabodetabek,29,8900000,0.0033
+2026-04-20,Registration & SIM,Jawa Barat,22,6400000,0.0034
+2026-04-20,Registration & SIM,Jawa Timur,18,5600000,0.0032
+2026-04-20,Registration & SIM,Kalimantan Timur,12,620000,0.0194
+2026-04-20,Registration & SIM,Sulawesi Selatan,8,2200000,0.0036
+2026-04-20,Registration & SIM,Sumatera Utara,15,3100000,0.0048
+2026-04-20,Top-up & Voucher,Jabodetabek,38,8900000,0.0043
+2026-04-20,Top-up & Voucher,Jawa Barat,38,6400000,0.0059
+2026-04-20,Top-up & Voucher,Jawa Timur,27,5600000,0.0048
+2026-04-20,Top-up & Voucher,Kalimantan Timur,10,620000,0.0161
+2026-04-20,Top-up & Voucher,Sulawesi Selatan,15,2200000,0.0068
+2026-04-20,Top-up & Voucher,Sumatera Utara,23,3100000,0.0074
+2026-04-27,App & Digital,Jabodetabek,36,8900000,0.004
+2026-04-27,App & Digital,Jawa Barat,27,6400000,0.0042
+2026-04-27,App & Digital,Jawa Timur,25,5600000,0.0045
+2026-04-27,App & Digital,Kalimantan Timur,9,620000,0.0145
+2026-04-27,App & Digital,Sulawesi Selatan,8,2200000,0.0036
+2026-04-27,App & Digital,Sumatera Utara,14,3100000,0.0045
+2026-04-27,Billing & Charging,Jabodetabek,99,8900000,0.0111
+2026-04-27,Billing & Charging,Jawa Barat,58,6400000,0.0091
+2026-04-27,Billing & Charging,Jawa Timur,42,5600000,0.0075
+2026-04-27,Billing & Charging,Kalimantan Timur,12,620000,0.0194
+2026-04-27,Billing & Charging,Sulawesi Selatan,19,2200000,0.0086
+2026-04-27,Billing & Charging,Sumatera Utara,32,3100000,0.0103
+2026-04-27,Network Quality,Jabodetabek,117,8900000,0.0131
+2026-04-27,Network Quality,Jawa Barat,64,6400000,0.01
+2026-04-27,Network Quality,Jawa Timur,87,5600000,0.0155
+2026-04-27,Network Quality,Kalimantan Timur,16,620000,0.0258
+2026-04-27,Network Quality,Sulawesi Selatan,38,2200000,0.0173
+2026-04-27,Network Quality,Sumatera Utara,52,3100000,0.0168
+2026-04-27,Others,Jabodetabek,103,8900000,0.0116
+2026-04-27,Others,Jawa Barat,56,6400000,0.0088
+2026-04-27,Others,Jawa Timur,69,5600000,0.0123
+2026-04-27,Others,Kalimantan Timur,26,620000,0.0419
+2026-04-27,Others,Sulawesi Selatan,28,2200000,0.0127
+2026-04-27,Others,Sumatera Utara,42,3100000,0.0135
+2026-04-27,Package & Quota,Jabodetabek,74,8900000,0.0083
+2026-04-27,Package & Quota,Jawa Barat,74,6400000,0.0116
+2026-04-27,Package & Quota,Jawa Timur,69,5600000,0.0123
+2026-04-27,Package & Quota,Kalimantan Timur,15,620000,0.0242
+2026-04-27,Package & Quota,Sulawesi Selatan,19,2200000,0.0086
+2026-04-27,Package & Quota,Sumatera Utara,27,3100000,0.0087
+2026-04-27,Registration & SIM,Jabodetabek,66,8900000,0.0074
+2026-04-27,Registration & SIM,Jawa Barat,28,6400000,0.0044
+2026-04-27,Registration & SIM,Jawa Timur,29,5600000,0.0052
+2026-04-27,Registration & SIM,Kalimantan Timur,7,620000,0.0113
+2026-04-27,Registration & SIM,Sulawesi Selatan,13,2200000,0.0059
+2026-04-27,Registration & SIM,Sumatera Utara,19,3100000,0.0061
+2026-04-27,Top-up & Voucher,Jabodetabek,48,8900000,0.0054
+2026-04-27,Top-up & Voucher,Jawa Barat,36,6400000,0.0056
+2026-04-27,Top-up & Voucher,Jawa Timur,32,5600000,0.0057
+2026-04-27,Top-up & Voucher,Kalimantan Timur,12,620000,0.0194
+2026-04-27,Top-up & Voucher,Sulawesi Selatan,17,2200000,0.0077
+2026-04-27,Top-up & Voucher,Sumatera Utara,26,3100000,0.0084
+2026-05-04,App & Digital,Jabodetabek,40,8900000,0.0045
+2026-05-04,App & Digital,Jawa Barat,19,6400000,0.003
+2026-05-04,App & Digital,Jawa Timur,22,5600000,0.0039
+2026-05-04,App & Digital,Kalimantan Timur,12,620000,0.0194
+2026-05-04,App & Digital,Sulawesi Selatan,11,2200000,0.005
+2026-05-04,App & Digital,Sumatera Utara,13,3100000,0.0042
+2026-05-04,Billing & Charging,Jabodetabek,67,8900000,0.0075
+2026-05-04,Billing & Charging,Jawa Barat,42,6400000,0.0066
+2026-05-04,Billing & Charging,Jawa Timur,32,5600000,0.0057
+2026-05-04,Billing & Charging,Kalimantan Timur,11,620000,0.0177
+2026-05-04,Billing & Charging,Sulawesi Selatan,25,2200000,0.0114
+2026-05-04,Billing & Charging,Sumatera Utara,31,3100000,0.01
+2026-05-04,Network Quality,Jabodetabek,116,8900000,0.013
+2026-05-04,Network Quality,Jawa Barat,71,6400000,0.0111
+2026-05-04,Network Quality,Jawa Timur,57,5600000,0.0102
+2026-05-04,Network Quality,Kalimantan Timur,13,620000,0.021
+2026-05-04,Network Quality,Sulawesi Selatan,22,2200000,0.01
+2026-05-04,Network Quality,Sumatera Utara,43,3100000,0.0139
+2026-05-04,Others,Jabodetabek,92,8900000,0.0103
+2026-05-04,Others,Jawa Barat,63,6400000,0.0098
+2026-05-04,Others,Jawa Timur,56,5600000,0.01
+2026-05-04,Others,Kalimantan Timur,15,620000,0.0242
+2026-05-04,Others,Sulawesi Selatan,28,2200000,0.0127
+2026-05-04,Others,Sumatera Utara,30,3100000,0.0097
+2026-05-04,Package & Quota,Jabodetabek,69,8900000,0.0078
+2026-05-04,Package & Quota,Jawa Barat,44,6400000,0.0069
+2026-05-04,Package & Quota,Jawa Timur,41,5600000,0.0073
+2026-05-04,Package & Quota,Kalimantan Timur,21,620000,0.0339
+2026-05-04,Package & Quota,Sulawesi Selatan,14,2200000,0.0064
+2026-05-04,Package & Quota,Sumatera Utara,32,3100000,0.0103
+2026-05-04,Registration & SIM,Jabodetabek,58,8900000,0.0065
+2026-05-04,Registration & SIM,Jawa Barat,30,6400000,0.0047
+2026-05-04,Registration & SIM,Jawa Timur,20,5600000,0.0036
+2026-05-04,Registration & SIM,Kalimantan Timur,7,620000,0.0113
+2026-05-04,Registration & SIM,Sulawesi Selatan,9,2200000,0.0041
+2026-05-04,Registration & SIM,Sumatera Utara,11,3100000,0.0035
+2026-05-04,Top-up & Voucher,Jabodetabek,42,8900000,0.0047
+2026-05-04,Top-up & Voucher,Jawa Barat,33,6400000,0.0052
+2026-05-04,Top-up & Voucher,Jawa Timur,39,5600000,0.007
+2026-05-04,Top-up & Voucher,Kalimantan Timur,9,620000,0.0145
+2026-05-04,Top-up & Voucher,Sulawesi Selatan,9,2200000,0.0041
+2026-05-04,Top-up & Voucher,Sumatera Utara,25,3100000,0.0081
+2026-05-11,App & Digital,Jabodetabek,35,8900000,0.0039
+2026-05-11,App & Digital,Jawa Barat,19,6400000,0.003
+2026-05-11,App & Digital,Jawa Timur,13,5600000,0.0023
+2026-05-11,App & Digital,Kalimantan Timur,6,620000,0.0097
+2026-05-11,App & Digital,Sulawesi Selatan,13,2200000,0.0059
+2026-05-11,App & Digital,Sumatera Utara,12,3100000,0.0039
+2026-05-11,Billing & Charging,Jabodetabek,53,8900000,0.006
+2026-05-11,Billing & Charging,Jawa Barat,39,6400000,0.0061
+2026-05-11,Billing & Charging,Jawa Timur,45,5600000,0.008
+2026-05-11,Billing & Charging,Kalimantan Timur,9,620000,0.0145
+2026-05-11,Billing & Charging,Sulawesi Selatan,22,2200000,0.01
+2026-05-11,Billing & Charging,Sumatera Utara,29,3100000,0.0094
+2026-05-11,Network Quality,Jabodetabek,105,8900000,0.0118
+2026-05-11,Network Quality,Jawa Barat,74,6400000,0.0116
+2026-05-11,Network Quality,Jawa Timur,55,5600000,0.0098
+2026-05-11,Network Quality,Kalimantan Timur,17,620000,0.0274
+2026-05-11,Network Quality,Sulawesi Selatan,32,2200000,0.0145
+2026-05-11,Network Quality,Sumatera Utara,51,3100000,0.0165
+2026-05-11,Others,Jabodetabek,71,8900000,0.008
+2026-05-11,Others,Jawa Barat,68,6400000,0.0106
+2026-05-11,Others,Jawa Timur,52,5600000,0.0093
+2026-05-11,Others,Kalimantan Timur,17,620000,0.0274
+2026-05-11,Others,Sulawesi Selatan,24,2200000,0.0109
+2026-05-11,Others,Sumatera Utara,41,3100000,0.0132
+2026-05-11,Package & Quota,Jabodetabek,79,8900000,0.0089
+2026-05-11,Package & Quota,Jawa Barat,58,6400000,0.0091
+2026-05-11,Package & Quota,Jawa Timur,35,5600000,0.0063
+2026-05-11,Package & Quota,Kalimantan Timur,18,620000,0.029
+2026-05-11,Package & Quota,Sulawesi Selatan,14,2200000,0.0064
+2026-05-11,Package & Quota,Sumatera Utara,38,3100000,0.0123
+2026-05-11,Registration & SIM,Jabodetabek,39,8900000,0.0044
+2026-05-11,Registration & SIM,Jawa Barat,34,6400000,0.0053
+2026-05-11,Registration & SIM,Jawa Timur,31,5600000,0.0055
+2026-05-11,Registration & SIM,Kalimantan Timur,12,620000,0.0194
+2026-05-11,Registration & SIM,Sulawesi Selatan,13,2200000,0.0059
+2026-05-11,Registration & SIM,Sumatera Utara,18,3100000,0.0058
+2026-05-11,Top-up & Voucher,Jabodetabek,39,8900000,0.0044
+2026-05-11,Top-up & Voucher,Jawa Barat,38,6400000,0.0059
+2026-05-11,Top-up & Voucher,Jawa Timur,26,5600000,0.0046
+2026-05-11,Top-up & Voucher,Kalimantan Timur,8,620000,0.0129
+2026-05-11,Top-up & Voucher,Sulawesi Selatan,13,2200000,0.0059
+2026-05-11,Top-up & Voucher,Sumatera Utara,19,3100000,0.0061
+2026-05-18,App & Digital,Jabodetabek,36,8900000,0.004
+2026-05-18,App & Digital,Jawa Barat,18,6400000,0.0028
+2026-05-18,App & Digital,Jawa Timur,18,5600000,0.0032
+2026-05-18,App & Digital,Kalimantan Timur,2,620000,0.0032
+2026-05-18,App & Digital,Sulawesi Selatan,7,2200000,0.0032
+2026-05-18,App & Digital,Sumatera Utara,18,3100000,0.0058
+2026-05-18,Billing & Charging,Jabodetabek,72,8900000,0.0081
+2026-05-18,Billing & Charging,Jawa Barat,44,6400000,0.0069
+2026-05-18,Billing & Charging,Jawa Timur,35,5600000,0.0063
+2026-05-18,Billing & Charging,Kalimantan Timur,14,620000,0.0226
+2026-05-18,Billing & Charging,Sulawesi Selatan,18,2200000,0.0082
+2026-05-18,Billing & Charging,Sumatera Utara,20,3100000,0.0065
+2026-05-18,Network Quality,Jabodetabek,109,8900000,0.0122
+2026-05-18,Network Quality,Jawa Barat,64,6400000,0.01
+2026-05-18,Network Quality,Jawa Timur,57,5600000,0.0102
+2026-05-18,Network Quality,Kalimantan Timur,19,620000,0.0306
+2026-05-18,Network Quality,Sulawesi Selatan,31,2200000,0.0141
+2026-05-18,Network Quality,Sumatera Utara,47,3100000,0.0152
+2026-05-18,Others,Jabodetabek,81,8900000,0.0091
+2026-05-18,Others,Jawa Barat,65,6400000,0.0102
+2026-05-18,Others,Jawa Timur,60,5600000,0.0107
+2026-05-18,Others,Kalimantan Timur,14,620000,0.0226
+2026-05-18,Others,Sulawesi Selatan,21,2200000,0.0095
+2026-05-18,Others,Sumatera Utara,38,3100000,0.0123
+2026-05-18,Package & Quota,Jabodetabek,76,8900000,0.0085
+2026-05-18,Package & Quota,Jawa Barat,49,6400000,0.0077
+2026-05-18,Package & Quota,Jawa Timur,46,5600000,0.0082
+2026-05-18,Package & Quota,Kalimantan Timur,10,620000,0.0161
+2026-05-18,Package & Quota,Sulawesi Selatan,19,2200000,0.0086
+2026-05-18,Package & Quota,Sumatera Utara,38,3100000,0.0123
+2026-05-18,Registration & SIM,Jabodetabek,40,8900000,0.0045
+2026-05-18,Registration & SIM,Jawa Barat,28,6400000,0.0044
+2026-05-18,Registration & SIM,Jawa Timur,21,5600000,0.0037
+2026-05-18,Registration & SIM,Kalimantan Timur,7,620000,0.0113
+2026-05-18,Registration & SIM,Sulawesi Selatan,6,2200000,0.0027
+2026-05-18,Registration & SIM,Sumatera Utara,23,3100000,0.0074
+2026-05-18,Top-up & Voucher,Jabodetabek,40,8900000,0.0045
+2026-05-18,Top-up & Voucher,Jawa Barat,38,6400000,0.0059
+2026-05-18,Top-up & Voucher,Jawa Timur,30,5600000,0.0054
+2026-05-18,Top-up & Voucher,Kalimantan Timur,5,620000,0.0081
+2026-05-18,Top-up & Voucher,Sulawesi Selatan,14,2200000,0.0064
+2026-05-18,Top-up & Voucher,Sumatera Utara,26,3100000,0.0084
+2026-05-25,App & Digital,Jabodetabek,41,8900000,0.0046
+2026-05-25,App & Digital,Jawa Barat,17,6400000,0.0027
+2026-05-25,App & Digital,Jawa Timur,23,5600000,0.0041
+2026-05-25,App & Digital,Kalimantan Timur,5,620000,0.0081
+2026-05-25,App & Digital,Sulawesi Selatan,9,2200000,0.0041
+2026-05-25,App & Digital,Sumatera Utara,17,3100000,0.0055
+2026-05-25,Billing & Charging,Jabodetabek,77,8900000,0.0087
+2026-05-25,Billing & Charging,Jawa Barat,50,6400000,0.0078
+2026-05-25,Billing & Charging,Jawa Timur,30,5600000,0.0054
+2026-05-25,Billing & Charging,Kalimantan Timur,11,620000,0.0177
+2026-05-25,Billing & Charging,Sulawesi Selatan,25,2200000,0.0114
+2026-05-25,Billing & Charging,Sumatera Utara,28,3100000,0.009
+2026-05-25,Network Quality,Jabodetabek,128,8900000,0.0144
+2026-05-25,Network Quality,Jawa Barat,100,6400000,0.0156
+2026-05-25,Network Quality,Jawa Timur,55,5600000,0.0098
+2026-05-25,Network Quality,Kalimantan Timur,24,620000,0.0387
+2026-05-25,Network Quality,Sulawesi Selatan,38,2200000,0.0173
+2026-05-25,Network Quality,Sumatera Utara,54,3100000,0.0174
+2026-05-25,Others,Jabodetabek,95,8900000,0.0107
+2026-05-25,Others,Jawa Barat,74,6400000,0.0116
+2026-05-25,Others,Jawa Timur,59,5600000,0.0105
+2026-05-25,Others,Kalimantan Timur,14,620000,0.0226
+2026-05-25,Others,Sulawesi Selatan,22,2200000,0.01
+2026-05-25,Others,Sumatera Utara,41,3100000,0.0132
+2026-05-25,Package & Quota,Jabodetabek,80,8900000,0.009
+2026-05-25,Package & Quota,Jawa Barat,61,6400000,0.0095
+2026-05-25,Package & Quota,Jawa Timur,72,5600000,0.0129
+2026-05-25,Package & Quota,Kalimantan Timur,18,620000,0.029
+2026-05-25,Package & Quota,Sulawesi Selatan,25,2200000,0.0114
+2026-05-25,Package & Quota,Sumatera Utara,48,3100000,0.0155
+2026-05-25,Registration & SIM,Jabodetabek,48,8900000,0.0054
+2026-05-25,Registration & SIM,Jawa Barat,40,6400000,0.0063
+2026-05-25,Registration & SIM,Jawa Timur,30,5600000,0.0054
+2026-05-25,Registration & SIM,Kalimantan Timur,6,620000,0.0097
+2026-05-25,Registration & SIM,Sulawesi Selatan,22,2200000,0.01
+2026-05-25,Registration & SIM,Sumatera Utara,15,3100000,0.0048
+2026-05-25,Top-up & Voucher,Jabodetabek,66,8900000,0.0074
+2026-05-25,Top-up & Voucher,Jawa Barat,50,6400000,0.0078
+2026-05-25,Top-up & Voucher,Jawa Timur,34,5600000,0.0061
+2026-05-25,Top-up & Voucher,Kalimantan Timur,9,620000,0.0145
+2026-05-25,Top-up & Voucher,Sulawesi Selatan,18,2200000,0.0082
+2026-05-25,Top-up & Voucher,Sumatera Utara,29,3100000,0.0094
+2026-06-01,App & Digital,Jabodetabek,24,8900000,0.0027
+2026-06-01,App & Digital,Jawa Barat,23,6400000,0.0036
+2026-06-01,App & Digital,Jawa Timur,24,5600000,0.0043
+2026-06-01,App & Digital,Kalimantan Timur,8,620000,0.0129
+2026-06-01,App & Digital,Sulawesi Selatan,9,2200000,0.0041
+2026-06-01,App & Digital,Sumatera Utara,11,3100000,0.0035
+2026-06-01,Billing & Charging,Jabodetabek,73,8900000,0.0082
+2026-06-01,Billing & Charging,Jawa Barat,45,6400000,0.007
+2026-06-01,Billing & Charging,Jawa Timur,34,5600000,0.0061
+2026-06-01,Billing & Charging,Kalimantan Timur,8,620000,0.0129
+2026-06-01,Billing & Charging,Sulawesi Selatan,21,2200000,0.0095
+2026-06-01,Billing & Charging,Sumatera Utara,26,3100000,0.0084
+2026-06-01,Network Quality,Jabodetabek,136,8900000,0.0153
+2026-06-01,Network Quality,Jawa Barat,86,6400000,0.0134
+2026-06-01,Network Quality,Jawa Timur,74,5600000,0.0132
+2026-06-01,Network Quality,Kalimantan Timur,19,620000,0.0306
+2026-06-01,Network Quality,Sulawesi Selatan,30,2200000,0.0136
+2026-06-01,Network Quality,Sumatera Utara,57,3100000,0.0184
+2026-06-01,Others,Jabodetabek,93,8900000,0.0104
+2026-06-01,Others,Jawa Barat,70,6400000,0.0109
+2026-06-01,Others,Jawa Timur,55,5600000,0.0098
+2026-06-01,Others,Kalimantan Timur,19,620000,0.0306
+2026-06-01,Others,Sulawesi Selatan,22,2200000,0.01
+2026-06-01,Others,Sumatera Utara,43,3100000,0.0139
+2026-06-01,Package & Quota,Jabodetabek,65,8900000,0.0073
+2026-06-01,Package & Quota,Jawa Barat,62,6400000,0.0097
+2026-06-01,Package & Quota,Jawa Timur,48,5600000,0.0086
+2026-06-01,Package & Quota,Kalimantan Timur,12,620000,0.0194
+2026-06-01,Package & Quota,Sulawesi Selatan,21,2200000,0.0095
+2026-06-01,Package & Quota,Sumatera Utara,31,3100000,0.01
+2026-06-01,Registration & SIM,Jabodetabek,51,8900000,0.0057
+2026-06-01,Registration & SIM,Jawa Barat,32,6400000,0.005
+2026-06-01,Registration & SIM,Jawa Timur,31,5600000,0.0055
+2026-06-01,Registration & SIM,Kalimantan Timur,8,620000,0.0129
+2026-06-01,Registration & SIM,Sulawesi Selatan,17,2200000,0.0077
+2026-06-01,Registration & SIM,Sumatera Utara,13,3100000,0.0042
+2026-06-01,Top-up & Voucher,Jabodetabek,55,8900000,0.0062
+2026-06-01,Top-up & Voucher,Jawa Barat,35,6400000,0.0055
+2026-06-01,Top-up & Voucher,Jawa Timur,26,5600000,0.0046
+2026-06-01,Top-up & Voucher,Kalimantan Timur,10,620000,0.0161
+2026-06-01,Top-up & Voucher,Sulawesi Selatan,17,2200000,0.0077
+2026-06-01,Top-up & Voucher,Sumatera Utara,24,3100000,0.0077
+2026-06-08,App & Digital,Jabodetabek,34,8900000,0.0038
+2026-06-08,App & Digital,Jawa Barat,24,6400000,0.0037
+2026-06-08,App & Digital,Jawa Timur,15,5600000,0.0027
+2026-06-08,App & Digital,Kalimantan Timur,11,620000,0.0177
+2026-06-08,App & Digital,Sulawesi Selatan,9,2200000,0.0041
+2026-06-08,App & Digital,Sumatera Utara,9,3100000,0.0029
+2026-06-08,Billing & Charging,Jabodetabek,66,8900000,0.0074
+2026-06-08,Billing & Charging,Jawa Barat,45,6400000,0.007
+2026-06-08,Billing & Charging,Jawa Timur,23,5600000,0.0041
+2026-06-08,Billing & Charging,Kalimantan Timur,12,620000,0.0194
+2026-06-08,Billing & Charging,Sulawesi Selatan,17,2200000,0.0077
+2026-06-08,Billing & Charging,Sumatera Utara,28,3100000,0.009
+2026-06-08,Network Quality,Jabodetabek,83,8900000,0.0093
+2026-06-08,Network Quality,Jawa Barat,69,6400000,0.0108
+2026-06-08,Network Quality,Jawa Timur,67,5600000,0.012
+2026-06-08,Network Quality,Kalimantan Timur,15,620000,0.0242
+2026-06-08,Network Quality,Sulawesi Selatan,32,2200000,0.0145
+2026-06-08,Network Quality,Sumatera Utara,39,3100000,0.0126
+2026-06-08,Others,Jabodetabek,90,8900000,0.0101
+2026-06-08,Others,Jawa Barat,63,6400000,0.0098
+2026-06-08,Others,Jawa Timur,48,5600000,0.0086
+2026-06-08,Others,Kalimantan Timur,28,620000,0.0452
+2026-06-08,Others,Sulawesi Selatan,23,2200000,0.0105
+2026-06-08,Others,Sumatera Utara,26,3100000,0.0084
+2026-06-08,Package & Quota,Jabodetabek,89,8900000,0.01
+2026-06-08,Package & Quota,Jawa Barat,46,6400000,0.0072
+2026-06-08,Package & Quota,Jawa Timur,43,5600000,0.0077
+2026-06-08,Package & Quota,Kalimantan Timur,5,620000,0.0081
+2026-06-08,Package & Quota,Sulawesi Selatan,22,2200000,0.01
+2026-06-08,Package & Quota,Sumatera Utara,23,3100000,0.0074
+2026-06-08,Registration & SIM,Jabodetabek,55,8900000,0.0062
+2026-06-08,Registration & SIM,Jawa Barat,30,6400000,0.0047
+2026-06-08,Registration & SIM,Jawa Timur,24,5600000,0.0043
+2026-06-08,Registration & SIM,Kalimantan Timur,11,620000,0.0177
+2026-06-08,Registration & SIM,Sulawesi Selatan,12,2200000,0.0055
+2026-06-08,Registration & SIM,Sumatera Utara,17,3100000,0.0055
+2026-06-08,Top-up & Voucher,Jabodetabek,52,8900000,0.0058
+2026-06-08,Top-up & Voucher,Jawa Barat,35,6400000,0.0055
+2026-06-08,Top-up & Voucher,Jawa Timur,45,5600000,0.008
+2026-06-08,Top-up & Voucher,Kalimantan Timur,9,620000,0.0145
+2026-06-08,Top-up & Voucher,Sulawesi Selatan,19,2200000,0.0086
+2026-06-08,Top-up & Voucher,Sumatera Utara,28,3100000,0.009
+2026-06-15,App & Digital,Jabodetabek,35,8900000,0.0039
+2026-06-15,App & Digital,Jawa Barat,21,6400000,0.0033
+2026-06-15,App & Digital,Jawa Timur,13,5600000,0.0023
+2026-06-15,App & Digital,Kalimantan Timur,3,620000,0.0048
+2026-06-15,App & Digital,Sulawesi Selatan,9,2200000,0.0041
+2026-06-15,App & Digital,Sumatera Utara,14,3100000,0.0045
+2026-06-15,Billing & Charging,Jabodetabek,58,8900000,0.0065
+2026-06-15,Billing & Charging,Jawa Barat,40,6400000,0.0063
+2026-06-15,Billing & Charging,Jawa Timur,32,5600000,0.0057
+2026-06-15,Billing & Charging,Kalimantan Timur,12,620000,0.0194
+2026-06-15,Billing & Charging,Sulawesi Selatan,24,2200000,0.0109
+2026-06-15,Billing & Charging,Sumatera Utara,23,3100000,0.0074
+2026-06-15,Network Quality,Jabodetabek,109,8900000,0.0122
+2026-06-15,Network Quality,Jawa Barat,62,6400000,0.0097
+2026-06-15,Network Quality,Jawa Timur,52,5600000,0.0093
+2026-06-15,Network Quality,Kalimantan Timur,22,620000,0.0355
+2026-06-15,Network Quality,Sulawesi Selatan,27,2200000,0.0123
+2026-06-15,Network Quality,Sumatera Utara,58,3100000,0.0187
+2026-06-15,Others,Jabodetabek,100,8900000,0.0112
+2026-06-15,Others,Jawa Barat,60,6400000,0.0094
+2026-06-15,Others,Jawa Timur,41,5600000,0.0073
+2026-06-15,Others,Kalimantan Timur,18,620000,0.029
+2026-06-15,Others,Sulawesi Selatan,31,2200000,0.0141
+2026-06-15,Others,Sumatera Utara,40,3100000,0.0129
+2026-06-15,Package & Quota,Jabodetabek,77,8900000,0.0087
+2026-06-15,Package & Quota,Jawa Barat,53,6400000,0.0083
+2026-06-15,Package & Quota,Jawa Timur,35,5600000,0.0063
+2026-06-15,Package & Quota,Kalimantan Timur,19,620000,0.0306
+2026-06-15,Package & Quota,Sulawesi Selatan,26,2200000,0.0118
+2026-06-15,Package & Quota,Sumatera Utara,26,3100000,0.0084
+2026-06-15,Registration & SIM,Jabodetabek,52,8900000,0.0058
+2026-06-15,Registration & SIM,Jawa Barat,28,6400000,0.0044
+2026-06-15,Registration & SIM,Jawa Timur,21,5600000,0.0037
+2026-06-15,Registration & SIM,Kalimantan Timur,6,620000,0.0097
+2026-06-15,Registration & SIM,Sulawesi Selatan,19,2200000,0.0086
+2026-06-15,Registration & SIM,Sumatera Utara,18,3100000,0.0058
+2026-06-15,Top-up & Voucher,Jabodetabek,54,8900000,0.0061
+2026-06-15,Top-up & Voucher,Jawa Barat,34,6400000,0.0053
+2026-06-15,Top-up & Voucher,Jawa Timur,36,5600000,0.0064
+2026-06-15,Top-up & Voucher,Kalimantan Timur,6,620000,0.0097
+2026-06-15,Top-up & Voucher,Sulawesi Selatan,8,2200000,0.0036
+2026-06-15,Top-up & Voucher,Sumatera Utara,16,3100000,0.0052
+2026-06-22,App & Digital,Jabodetabek,47,8900000,0.0053
+2026-06-22,App & Digital,Jawa Barat,29,6400000,0.0045
+2026-06-22,App & Digital,Jawa Timur,33,5600000,0.0059
+2026-06-22,App & Digital,Kalimantan Timur,7,620000,0.0113
+2026-06-22,App & Digital,Sulawesi Selatan,12,2200000,0.0055
+2026-06-22,App & Digital,Sumatera Utara,14,3100000,0.0045
+2026-06-22,Billing & Charging,Jabodetabek,60,8900000,0.0067
+2026-06-22,Billing & Charging,Jawa Barat,48,6400000,0.0075
+2026-06-22,Billing & Charging,Jawa Timur,45,5600000,0.008
+2026-06-22,Billing & Charging,Kalimantan Timur,8,620000,0.0129
+2026-06-22,Billing & Charging,Sulawesi Selatan,17,2200000,0.0077
+2026-06-22,Billing & Charging,Sumatera Utara,37,3100000,0.0119
+2026-06-22,Network Quality,Jabodetabek,135,8900000,0.0152
+2026-06-22,Network Quality,Jawa Barat,79,6400000,0.0123
+2026-06-22,Network Quality,Jawa Timur,66,5600000,0.0118
+2026-06-22,Network Quality,Kalimantan Timur,17,620000,0.0274
+2026-06-22,Network Quality,Sulawesi Selatan,35,2200000,0.0159
+2026-06-22,Network Quality,Sumatera Utara,48,3100000,0.0155
+2026-06-22,Others,Jabodetabek,112,8900000,0.0126
+2026-06-22,Others,Jawa Barat,65,6400000,0.0102
+2026-06-22,Others,Jawa Timur,47,5600000,0.0084
+2026-06-22,Others,Kalimantan Timur,14,620000,0.0226
+2026-06-22,Others,Sulawesi Selatan,22,2200000,0.01
+2026-06-22,Others,Sumatera Utara,45,3100000,0.0145
+2026-06-22,Package & Quota,Jabodetabek,67,8900000,0.0075
+2026-06-22,Package & Quota,Jawa Barat,65,6400000,0.0102
+2026-06-22,Package & Quota,Jawa Timur,37,5600000,0.0066
+2026-06-22,Package & Quota,Kalimantan Timur,16,620000,0.0258
+2026-06-22,Package & Quota,Sulawesi Selatan,27,2200000,0.0123
+2026-06-22,Package & Quota,Sumatera Utara,37,3100000,0.0119
+2026-06-22,Registration & SIM,Jabodetabek,43,8900000,0.0048
+2026-06-22,Registration & SIM,Jawa Barat,19,6400000,0.003
+2026-06-22,Registration & SIM,Jawa Timur,33,5600000,0.0059
+2026-06-22,Registration & SIM,Kalimantan Timur,6,620000,0.0097
+2026-06-22,Registration & SIM,Sulawesi Selatan,12,2200000,0.0055
+2026-06-22,Registration & SIM,Sumatera Utara,18,3100000,0.0058
+2026-06-22,Top-up & Voucher,Jabodetabek,45,8900000,0.0051
+2026-06-22,Top-up & Voucher,Jawa Barat,40,6400000,0.0063
+2026-06-22,Top-up & Voucher,Jawa Timur,27,5600000,0.0048
+2026-06-22,Top-up & Voucher,Kalimantan Timur,12,620000,0.0194
+2026-06-22,Top-up & Voucher,Sulawesi Selatan,19,2200000,0.0086
+2026-06-22,Top-up & Voucher,Sumatera Utara,25,3100000,0.0081
+2026-06-29,App & Digital,Jabodetabek,39,8900000,0.0044
+2026-06-29,App & Digital,Jawa Barat,40,6400000,0.0063
+2026-06-29,App & Digital,Jawa Timur,13,5600000,0.0023
+2026-06-29,App & Digital,Kalimantan Timur,8,620000,0.0129
+2026-06-29,App & Digital,Sulawesi Selatan,14,2200000,0.0064
+2026-06-29,App & Digital,Sumatera Utara,20,3100000,0.0065
+2026-06-29,Billing & Charging,Jabodetabek,92,8900000,0.0103
+2026-06-29,Billing & Charging,Jawa Barat,46,6400000,0.0072
+2026-06-29,Billing & Charging,Jawa Timur,41,5600000,0.0073
+2026-06-29,Billing & Charging,Kalimantan Timur,12,620000,0.0194
+2026-06-29,Billing & Charging,Sulawesi Selatan,20,2200000,0.0091
+2026-06-29,Billing & Charging,Sumatera Utara,31,3100000,0.01
+2026-06-29,Network Quality,Jabodetabek,121,8900000,0.0136
+2026-06-29,Network Quality,Jawa Barat,77,6400000,0.012
+2026-06-29,Network Quality,Jawa Timur,101,5600000,0.018
+2026-06-29,Network Quality,Kalimantan Timur,27,620000,0.0435
+2026-06-29,Network Quality,Sulawesi Selatan,28,2200000,0.0127
+2026-06-29,Network Quality,Sumatera Utara,59,3100000,0.019
+2026-06-29,Others,Jabodetabek,84,8900000,0.0094
+2026-06-29,Others,Jawa Barat,60,6400000,0.0094
+2026-06-29,Others,Jawa Timur,47,5600000,0.0084
+2026-06-29,Others,Kalimantan Timur,15,620000,0.0242
+2026-06-29,Others,Sulawesi Selatan,33,2200000,0.015
+2026-06-29,Others,Sumatera Utara,49,3100000,0.0158
+2026-06-29,Package & Quota,Jabodetabek,81,8900000,0.0091
+2026-06-29,Package & Quota,Jawa Barat,57,6400000,0.0089
+2026-06-29,Package & Quota,Jawa Timur,49,5600000,0.0088
+2026-06-29,Package & Quota,Kalimantan Timur,20,620000,0.0323
+2026-06-29,Package & Quota,Sulawesi Selatan,19,2200000,0.0086
+2026-06-29,Package & Quota,Sumatera Utara,23,3100000,0.0074
+2026-06-29,Registration & SIM,Jabodetabek,61,8900000,0.0069
+2026-06-29,Registration & SIM,Jawa Barat,32,6400000,0.005
+2026-06-29,Registration & SIM,Jawa Timur,35,5600000,0.0063
+2026-06-29,Registration & SIM,Kalimantan Timur,5,620000,0.0081
+2026-06-29,Registration & SIM,Sulawesi Selatan,12,2200000,0.0055
+2026-06-29,Registration & SIM,Sumatera Utara,19,3100000,0.0061
+2026-06-29,Top-up & Voucher,Jabodetabek,43,8900000,0.0048
+2026-06-29,Top-up & Voucher,Jawa Barat,52,6400000,0.0081
+2026-06-29,Top-up & Voucher,Jawa Timur,32,5600000,0.0057
+2026-06-29,Top-up & Voucher,Kalimantan Timur,12,620000,0.0194
+2026-06-29,Top-up & Voucher,Sulawesi Selatan,10,2200000,0.0045
+2026-06-29,Top-up & Voucher,Sumatera Utara,25,3100000,0.0081
+2026-07-06,App & Digital,Jabodetabek,40,8900000,0.0045
+2026-07-06,App & Digital,Jawa Barat,28,6400000,0.0044
+2026-07-06,App & Digital,Jawa Timur,28,5600000,0.005
+2026-07-06,App & Digital,Kalimantan Timur,5,620000,0.0081
+2026-07-06,App & Digital,Sulawesi Selatan,12,2200000,0.0055
+2026-07-06,App & Digital,Sumatera Utara,9,3100000,0.0029
+2026-07-06,Billing & Charging,Jabodetabek,60,8900000,0.0067
+2026-07-06,Billing & Charging,Jawa Barat,53,6400000,0.0083
+2026-07-06,Billing & Charging,Jawa Timur,40,5600000,0.0071
+2026-07-06,Billing & Charging,Kalimantan Timur,16,620000,0.0258
+2026-07-06,Billing & Charging,Sulawesi Selatan,23,2200000,0.0105
+2026-07-06,Billing & Charging,Sumatera Utara,23,3100000,0.0074
+2026-07-06,Network Quality,Jabodetabek,101,8900000,0.0113
+2026-07-06,Network Quality,Jawa Barat,71,6400000,0.0111
+2026-07-06,Network Quality,Jawa Timur,70,5600000,0.0125
+2026-07-06,Network Quality,Kalimantan Timur,20,620000,0.0323
+2026-07-06,Network Quality,Sulawesi Selatan,30,2200000,0.0136
+2026-07-06,Network Quality,Sumatera Utara,47,3100000,0.0152
+2026-07-06,Others,Jabodetabek,89,8900000,0.01
+2026-07-06,Others,Jawa Barat,63,6400000,0.0098
+2026-07-06,Others,Jawa Timur,49,5600000,0.0088
+2026-07-06,Others,Kalimantan Timur,14,620000,0.0226
+2026-07-06,Others,Sulawesi Selatan,22,2200000,0.01
+2026-07-06,Others,Sumatera Utara,33,3100000,0.0106
+2026-07-06,Package & Quota,Jabodetabek,71,8900000,0.008
+2026-07-06,Package & Quota,Jawa Barat,55,6400000,0.0086
+2026-07-06,Package & Quota,Jawa Timur,42,5600000,0.0075
+2026-07-06,Package & Quota,Kalimantan Timur,12,620000,0.0194
+2026-07-06,Package & Quota,Sulawesi Selatan,25,2200000,0.0114
+2026-07-06,Package & Quota,Sumatera Utara,31,3100000,0.01
+2026-07-06,Registration & SIM,Jabodetabek,43,8900000,0.0048
+2026-07-06,Registration & SIM,Jawa Barat,28,6400000,0.0044
+2026-07-06,Registration & SIM,Jawa Timur,27,5600000,0.0048
+2026-07-06,Registration & SIM,Kalimantan Timur,8,620000,0.0129
+2026-07-06,Registration & SIM,Sulawesi Selatan,14,2200000,0.0064
+2026-07-06,Registration & SIM,Sumatera Utara,17,3100000,0.0055
+2026-07-06,Top-up & Voucher,Jabodetabek,51,8900000,0.0057
+2026-07-06,Top-up & Voucher,Jawa Barat,33,6400000,0.0052
+2026-07-06,Top-up & Voucher,Jawa Timur,26,5600000,0.0046
+2026-07-06,Top-up & Voucher,Kalimantan Timur,5,620000,0.0081
+2026-07-06,Top-up & Voucher,Sulawesi Selatan,15,2200000,0.0068
+2026-07-06,Top-up & Voucher,Sumatera Utara,27,3100000,0.0087
+2026-07-13,App & Digital,Jabodetabek,40,8900000,0.0045
+2026-07-13,App & Digital,Jawa Barat,25,6400000,0.0039
+2026-07-13,App & Digital,Jawa Timur,22,5600000,0.0039
+2026-07-13,App & Digital,Kalimantan Timur,6,620000,0.0097
+2026-07-13,App & Digital,Sulawesi Selatan,11,2200000,0.005
+2026-07-13,App & Digital,Sumatera Utara,6,3100000,0.0019
+2026-07-13,Billing & Charging,Jabodetabek,73,8900000,0.0082
+2026-07-13,Billing & Charging,Jawa Barat,43,6400000,0.0067
+2026-07-13,Billing & Charging,Jawa Timur,30,5600000,0.0054
+2026-07-13,Billing & Charging,Kalimantan Timur,8,620000,0.0129
+2026-07-13,Billing & Charging,Sulawesi Selatan,19,2200000,0.0086
+2026-07-13,Billing & Charging,Sumatera Utara,23,3100000,0.0074
+2026-07-13,Network Quality,Jabodetabek,95,8900000,0.0107
+2026-07-13,Network Quality,Jawa Barat,76,6400000,0.0119
+2026-07-13,Network Quality,Jawa Timur,61,5600000,0.0109
+2026-07-13,Network Quality,Kalimantan Timur,15,620000,0.0242
+2026-07-13,Network Quality,Sulawesi Selatan,32,2200000,0.0145
+2026-07-13,Network Quality,Sumatera Utara,1309,3100000,0.4223
+2026-07-13,Others,Jabodetabek,78,8900000,0.0088
+2026-07-13,Others,Jawa Barat,70,6400000,0.0109
+2026-07-13,Others,Jawa Timur,55,5600000,0.0098
+2026-07-13,Others,Kalimantan Timur,18,620000,0.029
+2026-07-13,Others,Sulawesi Selatan,23,2200000,0.0105
+2026-07-13,Others,Sumatera Utara,256,3100000,0.0826
+2026-07-13,Package & Quota,Jabodetabek,67,8900000,0.0075
+2026-07-13,Package & Quota,Jawa Barat,58,6400000,0.0091
+2026-07-13,Package & Quota,Jawa Timur,49,5600000,0.0088
+2026-07-13,Package & Quota,Kalimantan Timur,19,620000,0.0306
+2026-07-13,Package & Quota,Sulawesi Selatan,24,2200000,0.0109
+2026-07-13,Package & Quota,Sumatera Utara,26,3100000,0.0084
+2026-07-13,Registration & SIM,Jabodetabek,45,8900000,0.0051
+2026-07-13,Registration & SIM,Jawa Barat,34,6400000,0.0053
+2026-07-13,Registration & SIM,Jawa Timur,15,5600000,0.0027
+2026-07-13,Registration & SIM,Kalimantan Timur,4,620000,0.0065
+2026-07-13,Registration & SIM,Sulawesi Selatan,19,2200000,0.0086
+2026-07-13,Registration & SIM,Sumatera Utara,9,3100000,0.0029
+2026-07-13,Top-up & Voucher,Jabodetabek,45,8900000,0.0051
+2026-07-13,Top-up & Voucher,Jawa Barat,37,6400000,0.0058
+2026-07-13,Top-up & Voucher,Jawa Timur,31,5600000,0.0055
+2026-07-13,Top-up & Voucher,Kalimantan Timur,14,620000,0.0226
+2026-07-13,Top-up & Voucher,Sulawesi Selatan,15,2200000,0.0068
+2026-07-13,Top-up & Voucher,Sumatera Utara,25,3100000,0.0081
+2026-07-20,App & Digital,Jabodetabek,35,8900000,0.0039
+2026-07-20,App & Digital,Jawa Barat,19,6400000,0.003
+2026-07-20,App & Digital,Jawa Timur,30,5600000,0.0054
+2026-07-20,App & Digital,Kalimantan Timur,9,620000,0.0145
+2026-07-20,App & Digital,Sulawesi Selatan,12,2200000,0.0055
+2026-07-20,App & Digital,Sumatera Utara,12,3100000,0.0039
+2026-07-20,Billing & Charging,Jabodetabek,86,8900000,0.0097
+2026-07-20,Billing & Charging,Jawa Barat,50,6400000,0.0078
+2026-07-20,Billing & Charging,Jawa Timur,42,5600000,0.0075
+2026-07-20,Billing & Charging,Kalimantan Timur,18,620000,0.029
+2026-07-20,Billing & Charging,Sulawesi Selatan,16,2200000,0.0073
+2026-07-20,Billing & Charging,Sumatera Utara,23,3100000,0.0074
+2026-07-20,Network Quality,Jabodetabek,108,8900000,0.0121
+2026-07-20,Network Quality,Jawa Barat,63,6400000,0.0098
+2026-07-20,Network Quality,Jawa Timur,69,5600000,0.0123
+2026-07-20,Network Quality,Kalimantan Timur,18,620000,0.029
+2026-07-20,Network Quality,Sulawesi Selatan,42,2200000,0.0191
+2026-07-20,Network Quality,Sumatera Utara,113,3100000,0.0365
+2026-07-20,Others,Jabodetabek,93,8900000,0.0104
+2026-07-20,Others,Jawa Barat,59,6400000,0.0092
+2026-07-20,Others,Jawa Timur,56,5600000,0.01
+2026-07-20,Others,Kalimantan Timur,15,620000,0.0242
+2026-07-20,Others,Sulawesi Selatan,27,2200000,0.0123
+2026-07-20,Others,Sumatera Utara,50,3100000,0.0161
+2026-07-20,Package & Quota,Jabodetabek,59,8900000,0.0066
+2026-07-20,Package & Quota,Jawa Barat,62,6400000,0.0097
+2026-07-20,Package & Quota,Jawa Timur,35,5600000,0.0063
+2026-07-20,Package & Quota,Kalimantan Timur,14,620000,0.0226
+2026-07-20,Package & Quota,Sulawesi Selatan,24,2200000,0.0109
+2026-07-20,Package & Quota,Sumatera Utara,27,3100000,0.0087
+2026-07-20,Registration & SIM,Jabodetabek,46,8900000,0.0052
+2026-07-20,Registration & SIM,Jawa Barat,21,6400000,0.0033
+2026-07-20,Registration & SIM,Jawa Timur,43,5600000,0.0077
+2026-07-20,Registration & SIM,Kalimantan Timur,8,620000,0.0129
+2026-07-20,Registration & SIM,Sulawesi Selatan,9,2200000,0.0041
+2026-07-20,Registration & SIM,Sumatera Utara,26,3100000,0.0084
+2026-07-20,Top-up & Voucher,Jabodetabek,51,8900000,0.0057
+2026-07-20,Top-up & Voucher,Jawa Barat,44,6400000,0.0069
+2026-07-20,Top-up & Voucher,Jawa Timur,33,5600000,0.0059
+2026-07-20,Top-up & Voucher,Kalimantan Timur,10,620000,0.0161
+2026-07-20,Top-up & Voucher,Sulawesi Selatan,12,2200000,0.0055
+2026-07-20,Top-up & Voucher,Sumatera Utara,17,3100000,0.0055
+2026-07-27,App & Digital,Jabodetabek,37,8900000,0.0042
+2026-07-27,App & Digital,Jawa Barat,36,6400000,0.0056
+2026-07-27,App & Digital,Jawa Timur,27,5600000,0.0048
+2026-07-27,App & Digital,Kalimantan Timur,3,620000,0.0048
+2026-07-27,App & Digital,Sulawesi Selatan,18,2200000,0.0082
+2026-07-27,App & Digital,Sumatera Utara,18,3100000,0.0058
+2026-07-27,Billing & Charging,Jabodetabek,97,8900000,0.0109
+2026-07-27,Billing & Charging,Jawa Barat,55,6400000,0.0086
+2026-07-27,Billing & Charging,Jawa Timur,42,5600000,0.0075
+2026-07-27,Billing & Charging,Kalimantan Timur,10,620000,0.0161
+2026-07-27,Billing & Charging,Sulawesi Selatan,23,2200000,0.0105
+2026-07-27,Billing & Charging,Sumatera Utara,40,3100000,0.0129
+2026-07-27,Network Quality,Jabodetabek,127,8900000,0.0143
+2026-07-27,Network Quality,Jawa Barat,86,6400000,0.0134
+2026-07-27,Network Quality,Jawa Timur,73,5600000,0.013
+2026-07-27,Network Quality,Kalimantan Timur,23,620000,0.0371
+2026-07-27,Network Quality,Sulawesi Selatan,44,2200000,0.02
+2026-07-27,Network Quality,Sumatera Utara,41,3100000,0.0132
+2026-07-27,Others,Jabodetabek,122,8900000,0.0137
+2026-07-27,Others,Jawa Barat,76,6400000,0.0119
+2026-07-27,Others,Jawa Timur,61,5600000,0.0109
+2026-07-27,Others,Kalimantan Timur,17,620000,0.0274
+2026-07-27,Others,Sulawesi Selatan,27,2200000,0.0123
+2026-07-27,Others,Sumatera Utara,40,3100000,0.0129
+2026-07-27,Package & Quota,Jabodetabek,97,8900000,0.0109
+2026-07-27,Package & Quota,Jawa Barat,55,6400000,0.0086
+2026-07-27,Package & Quota,Jawa Timur,51,5600000,0.0091
+2026-07-27,Package & Quota,Kalimantan Timur,22,620000,0.0355
+2026-07-27,Package & Quota,Sulawesi Selatan,24,2200000,0.0109
+2026-07-27,Package & Quota,Sumatera Utara,31,3100000,0.01
+2026-07-27,Registration & SIM,Jabodetabek,53,8900000,0.006
+2026-07-27,Registration & SIM,Jawa Barat,30,6400000,0.0047
+2026-07-27,Registration & SIM,Jawa Timur,35,5600000,0.0063
+2026-07-27,Registration & SIM,Kalimantan Timur,11,620000,0.0177
+2026-07-27,Registration & SIM,Sulawesi Selatan,20,2200000,0.0091
+2026-07-27,Registration & SIM,Sumatera Utara,23,3100000,0.0074
+2026-07-27,Top-up & Voucher,Jabodetabek,48,8900000,0.0054
+2026-07-27,Top-up & Voucher,Jawa Barat,46,6400000,0.0072
+2026-07-27,Top-up & Voucher,Jawa Timur,41,5600000,0.0073
+2026-07-27,Top-up & Voucher,Kalimantan Timur,13,620000,0.021
+2026-07-27,Top-up & Voucher,Sulawesi Selatan,14,2200000,0.0064
+2026-07-27,Top-up & Voucher,Sumatera Utara,42,3100000,0.0135
+2026-08-03,App & Digital,Jabodetabek,30,8900000,0.0034
+2026-08-03,App & Digital,Jawa Barat,20,6400000,0.0031
+2026-08-03,App & Digital,Jawa Timur,22,5600000,0.0039
+2026-08-03,App & Digital,Kalimantan Timur,4,620000,0.0065
+2026-08-03,App & Digital,Sulawesi Selatan,11,2200000,0.005
+2026-08-03,App & Digital,Sumatera Utara,17,3100000,0.0055
+2026-08-03,Billing & Charging,Jabodetabek,67,8900000,0.0075
+2026-08-03,Billing & Charging,Jawa Barat,64,6400000,0.01
+2026-08-03,Billing & Charging,Jawa Timur,48,5600000,0.0086
+2026-08-03,Billing & Charging,Kalimantan Timur,8,620000,0.0129
+2026-08-03,Billing & Charging,Sulawesi Selatan,17,2200000,0.0077
+2026-08-03,Billing & Charging,Sumatera Utara,28,3100000,0.009
+2026-08-03,Network Quality,Jabodetabek,99,8900000,0.0111
+2026-08-03,Network Quality,Jawa Barat,76,6400000,0.0119
+2026-08-03,Network Quality,Jawa Timur,62,5600000,0.0111
+2026-08-03,Network Quality,Kalimantan Timur,20,620000,0.0323
+2026-08-03,Network Quality,Sulawesi Selatan,26,2200000,0.0118
+2026-08-03,Network Quality,Sumatera Utara,55,3100000,0.0177
+2026-08-03,Others,Jabodetabek,96,8900000,0.0108
+2026-08-03,Others,Jawa Barat,61,6400000,0.0095
+2026-08-03,Others,Jawa Timur,60,5600000,0.0107
+2026-08-03,Others,Kalimantan Timur,25,620000,0.0403
+2026-08-03,Others,Sulawesi Selatan,25,2200000,0.0114
+2026-08-03,Others,Sumatera Utara,42,3100000,0.0135
+2026-08-03,Package & Quota,Jabodetabek,67,8900000,0.0075
+2026-08-03,Package & Quota,Jawa Barat,58,6400000,0.0091
+2026-08-03,Package & Quota,Jawa Timur,39,5600000,0.007
+2026-08-03,Package & Quota,Kalimantan Timur,15,620000,0.0242
+2026-08-03,Package & Quota,Sulawesi Selatan,23,2200000,0.0105
+2026-08-03,Package & Quota,Sumatera Utara,37,3100000,0.0119
+2026-08-03,Registration & SIM,Jabodetabek,47,8900000,0.0053
+2026-08-03,Registration & SIM,Jawa Barat,26,6400000,0.0041
+2026-08-03,Registration & SIM,Jawa Timur,23,5600000,0.0041
+2026-08-03,Registration & SIM,Kalimantan Timur,7,620000,0.0113
+2026-08-03,Registration & SIM,Sulawesi Selatan,9,2200000,0.0041
+2026-08-03,Registration & SIM,Sumatera Utara,13,3100000,0.0042
+2026-08-03,Top-up & Voucher,Jabodetabek,56,8900000,0.0063
+2026-08-03,Top-up & Voucher,Jawa Barat,31,6400000,0.0048
+2026-08-03,Top-up & Voucher,Jawa Timur,26,5600000,0.0046
+2026-08-03,Top-up & Voucher,Kalimantan Timur,5,620000,0.0081
+2026-08-03,Top-up & Voucher,Sulawesi Selatan,16,2200000,0.0073
+2026-08-03,Top-up & Voucher,Sumatera Utara,19,3100000,0.0061
+2026-08-10,App & Digital,Jabodetabek,350,8900000,0.0393
+2026-08-10,App & Digital,Jawa Barat,210,6400000,0.0328
+2026-08-10,App & Digital,Jawa Timur,193,5600000,0.0345
+2026-08-10,App & Digital,Kalimantan Timur,61,620000,0.0984
+2026-08-10,App & Digital,Sulawesi Selatan,106,2200000,0.0482
+2026-08-10,App & Digital,Sumatera Utara,135,3100000,0.0435
+2026-08-10,Billing & Charging,Jabodetabek,71,8900000,0.008
+2026-08-10,Billing & Charging,Jawa Barat,43,6400000,0.0067
+2026-08-10,Billing & Charging,Jawa Timur,46,5600000,0.0082
+2026-08-10,Billing & Charging,Kalimantan Timur,6,620000,0.0097
+2026-08-10,Billing & Charging,Sulawesi Selatan,22,2200000,0.01
+2026-08-10,Billing & Charging,Sumatera Utara,33,3100000,0.0106
+2026-08-10,Network Quality,Jabodetabek,81,8900000,0.0091
+2026-08-10,Network Quality,Jawa Barat,56,6400000,0.0088
+2026-08-10,Network Quality,Jawa Timur,58,5600000,0.0104
+2026-08-10,Network Quality,Kalimantan Timur,12,620000,0.0194
+2026-08-10,Network Quality,Sulawesi Selatan,25,2200000,0.0114
+2026-08-10,Network Quality,Sumatera Utara,33,3100000,0.0106
+2026-08-10,Others,Jabodetabek,119,8900000,0.0134
+2026-08-10,Others,Jawa Barat,104,6400000,0.0163
+2026-08-10,Others,Jawa Timur,65,5600000,0.0116
+2026-08-10,Others,Kalimantan Timur,35,620000,0.0565
+2026-08-10,Others,Sulawesi Selatan,31,2200000,0.0141
+2026-08-10,Others,Sumatera Utara,52,3100000,0.0168
+2026-08-10,Package & Quota,Jabodetabek,52,8900000,0.0058
+2026-08-10,Package & Quota,Jawa Barat,32,6400000,0.005
+2026-08-10,Package & Quota,Jawa Timur,32,5600000,0.0057
+2026-08-10,Package & Quota,Kalimantan Timur,12,620000,0.0194
+2026-08-10,Package & Quota,Sulawesi Selatan,18,2200000,0.0082
+2026-08-10,Package & Quota,Sumatera Utara,25,3100000,0.0081
+2026-08-10,Registration & SIM,Jabodetabek,32,8900000,0.0036
+2026-08-10,Registration & SIM,Jawa Barat,21,6400000,0.0033
+2026-08-10,Registration & SIM,Jawa Timur,21,5600000,0.0037
+2026-08-10,Registration & SIM,Kalimantan Timur,12,620000,0.0194
+2026-08-10,Registration & SIM,Sulawesi Selatan,16,2200000,0.0073
+2026-08-10,Registration & SIM,Sumatera Utara,14,3100000,0.0045
+2026-08-10,Top-up & Voucher,Jabodetabek,43,8900000,0.0048
+2026-08-10,Top-up & Voucher,Jawa Barat,16,6400000,0.0025
+2026-08-10,Top-up & Voucher,Jawa Timur,22,5600000,0.0039
+2026-08-10,Top-up & Voucher,Kalimantan Timur,13,620000,0.021
+2026-08-10,Top-up & Voucher,Sulawesi Selatan,11,2200000,0.005
+2026-08-10,Top-up & Voucher,Sumatera Utara,17,3100000,0.0055
+2026-08-17,App & Digital,Jabodetabek,51,8900000,0.0057
+2026-08-17,App & Digital,Jawa Barat,28,6400000,0.0044
+2026-08-17,App & Digital,Jawa Timur,29,5600000,0.0052
+2026-08-17,App & Digital,Kalimantan Timur,9,620000,0.0145
+2026-08-17,App & Digital,Sulawesi Selatan,9,2200000,0.0041
+2026-08-17,App & Digital,Sumatera Utara,19,3100000,0.0061
+2026-08-17,Billing & Charging,Jabodetabek,99,8900000,0.0111
+2026-08-17,Billing & Charging,Jawa Barat,53,6400000,0.0083
+2026-08-17,Billing & Charging,Jawa Timur,43,5600000,0.0077
+2026-08-17,Billing & Charging,Kalimantan Timur,17,620000,0.0274
+2026-08-17,Billing & Charging,Sulawesi Selatan,19,2200000,0.0086
+2026-08-17,Billing & Charging,Sumatera Utara,36,3100000,0.0116
+2026-08-17,Network Quality,Jabodetabek,106,8900000,0.0119
+2026-08-17,Network Quality,Jawa Barat,74,6400000,0.0116
+2026-08-17,Network Quality,Jawa Timur,64,5600000,0.0114
+2026-08-17,Network Quality,Kalimantan Timur,14,620000,0.0226
+2026-08-17,Network Quality,Sulawesi Selatan,32,2200000,0.0145
+2026-08-17,Network Quality,Sumatera Utara,38,3100000,0.0123
+2026-08-17,Others,Jabodetabek,93,8900000,0.0104
+2026-08-17,Others,Jawa Barat,60,6400000,0.0094
+2026-08-17,Others,Jawa Timur,52,5600000,0.0093
+2026-08-17,Others,Kalimantan Timur,14,620000,0.0226
+2026-08-17,Others,Sulawesi Selatan,24,2200000,0.0109
+2026-08-17,Others,Sumatera Utara,34,3100000,0.011
+2026-08-17,Package & Quota,Jabodetabek,65,8900000,0.0073
+2026-08-17,Package & Quota,Jawa Barat,58,6400000,0.0091
+2026-08-17,Package & Quota,Jawa Timur,44,5600000,0.0079
+2026-08-17,Package & Quota,Kalimantan Timur,13,620000,0.021
+2026-08-17,Package & Quota,Sulawesi Selatan,14,2200000,0.0064
+2026-08-17,Package & Quota,Sumatera Utara,24,3100000,0.0077
+2026-08-17,Registration & SIM,Jabodetabek,59,8900000,0.0066
+2026-08-17,Registration & SIM,Jawa Barat,32,6400000,0.005
+2026-08-17,Registration & SIM,Jawa Timur,31,5600000,0.0055
+2026-08-17,Registration & SIM,Kalimantan Timur,14,620000,0.0226
+2026-08-17,Registration & SIM,Sulawesi Selatan,15,2200000,0.0068
+2026-08-17,Registration & SIM,Sumatera Utara,17,3100000,0.0055
+2026-08-17,Top-up & Voucher,Jabodetabek,45,8900000,0.0051
+2026-08-17,Top-up & Voucher,Jawa Barat,30,6400000,0.0047
+2026-08-17,Top-up & Voucher,Jawa Timur,20,5600000,0.0036
+2026-08-17,Top-up & Voucher,Kalimantan Timur,7,620000,0.0113
+2026-08-17,Top-up & Voucher,Sulawesi Selatan,17,2200000,0.0077
+2026-08-17,Top-up & Voucher,Sumatera Utara,25,3100000,0.0081
+2026-08-24,App & Digital,Jabodetabek,31,8900000,0.0035
+2026-08-24,App & Digital,Jawa Barat,38,6400000,0.0059
+2026-08-24,App & Digital,Jawa Timur,22,5600000,0.0039
+2026-08-24,App & Digital,Kalimantan Timur,4,620000,0.0065
+2026-08-24,App & Digital,Sulawesi Selatan,11,2200000,0.005
+2026-08-24,App & Digital,Sumatera Utara,12,3100000,0.0039
+2026-08-24,Billing & Charging,Jabodetabek,85,8900000,0.0096
+2026-08-24,Billing & Charging,Jawa Barat,72,6400000,0.0112
+2026-08-24,Billing & Charging,Jawa Timur,54,5600000,0.0096
+2026-08-24,Billing & Charging,Kalimantan Timur,24,620000,0.0387
+2026-08-24,Billing & Charging,Sulawesi Selatan,22,2200000,0.01
+2026-08-24,Billing & Charging,Sumatera Utara,51,3100000,0.0165
+2026-08-24,Network Quality,Jabodetabek,113,8900000,0.0127
+2026-08-24,Network Quality,Jawa Barat,80,6400000,0.0125
+2026-08-24,Network Quality,Jawa Timur,83,5600000,0.0148
+2026-08-24,Network Quality,Kalimantan Timur,28,620000,0.0452
+2026-08-24,Network Quality,Sulawesi Selatan,33,2200000,0.015
+2026-08-24,Network Quality,Sumatera Utara,60,3100000,0.0194
+2026-08-24,Others,Jabodetabek,81,8900000,0.0091
+2026-08-24,Others,Jawa Barat,73,6400000,0.0114
+2026-08-24,Others,Jawa Timur,49,5600000,0.0088
+2026-08-24,Others,Kalimantan Timur,25,620000,0.0403
+2026-08-24,Others,Sulawesi Selatan,42,2200000,0.0191
+2026-08-24,Others,Sumatera Utara,44,3100000,0.0142
+2026-08-24,Package & Quota,Jabodetabek,88,8900000,0.0099
+2026-08-24,Package & Quota,Jawa Barat,48,6400000,0.0075
+2026-08-24,Package & Quota,Jawa Timur,58,5600000,0.0104
+2026-08-24,Package & Quota,Kalimantan Timur,20,620000,0.0323
+2026-08-24,Package & Quota,Sulawesi Selatan,23,2200000,0.0105
+2026-08-24,Package & Quota,Sumatera Utara,45,3100000,0.0145
+2026-08-24,Registration & SIM,Jabodetabek,51,8900000,0.0057
+2026-08-24,Registration & SIM,Jawa Barat,43,6400000,0.0067
+2026-08-24,Registration & SIM,Jawa Timur,39,5600000,0.007
+2026-08-24,Registration & SIM,Kalimantan Timur,8,620000,0.0129
+2026-08-24,Registration & SIM,Sulawesi Selatan,12,2200000,0.0055
+2026-08-24,Registration & SIM,Sumatera Utara,20,3100000,0.0065
+2026-08-24,Top-up & Voucher,Jabodetabek,64,8900000,0.0072
+2026-08-24,Top-up & Voucher,Jawa Barat,38,6400000,0.0059
+2026-08-24,Top-up & Voucher,Jawa Timur,33,5600000,0.0059
+2026-08-24,Top-up & Voucher,Kalimantan Timur,13,620000,0.021
+2026-08-24,Top-up & Voucher,Sulawesi Selatan,16,2200000,0.0073
+2026-08-24,Top-up & Voucher,Sumatera Utara,19,3100000,0.0061
+2026-08-31,App & Digital,Jabodetabek,51,8900000,0.0057
+2026-08-31,App & Digital,Jawa Barat,27,6400000,0.0042
+2026-08-31,App & Digital,Jawa Timur,27,5600000,0.0048
+2026-08-31,App & Digital,Kalimantan Timur,7,620000,0.0113
+2026-08-31,App & Digital,Sulawesi Selatan,12,2200000,0.0055
+2026-08-31,App & Digital,Sumatera Utara,12,3100000,0.0039
+2026-08-31,Billing & Charging,Jabodetabek,97,8900000,0.0109
+2026-08-31,Billing & Charging,Jawa Barat,71,6400000,0.0111
+2026-08-31,Billing & Charging,Jawa Timur,52,5600000,0.0093
+2026-08-31,Billing & Charging,Kalimantan Timur,13,620000,0.021
+2026-08-31,Billing & Charging,Sulawesi Selatan,25,2200000,0.0114
+2026-08-31,Billing & Charging,Sumatera Utara,42,3100000,0.0135
+2026-08-31,Network Quality,Jabodetabek,109,8900000,0.0122
+2026-08-31,Network Quality,Jawa Barat,85,6400000,0.0133
+2026-08-31,Network Quality,Jawa Timur,85,5600000,0.0152
+2026-08-31,Network Quality,Kalimantan Timur,22,620000,0.0355
+2026-08-31,Network Quality,Sulawesi Selatan,33,2200000,0.015
+2026-08-31,Network Quality,Sumatera Utara,48,3100000,0.0155
+2026-08-31,Others,Jabodetabek,92,8900000,0.0103
+2026-08-31,Others,Jawa Barat,77,6400000,0.012
+2026-08-31,Others,Jawa Timur,73,5600000,0.013
+2026-08-31,Others,Kalimantan Timur,21,620000,0.0339
+2026-08-31,Others,Sulawesi Selatan,35,2200000,0.0159
+2026-08-31,Others,Sumatera Utara,39,3100000,0.0126
+2026-08-31,Package & Quota,Jabodetabek,95,8900000,0.0107
+2026-08-31,Package & Quota,Jawa Barat,71,6400000,0.0111
+2026-08-31,Package & Quota,Jawa Timur,41,5600000,0.0073
+2026-08-31,Package & Quota,Kalimantan Timur,10,620000,0.0161
+2026-08-31,Package & Quota,Sulawesi Selatan,24,2200000,0.0109
+2026-08-31,Package & Quota,Sumatera Utara,34,3100000,0.011
+2026-08-31,Registration & SIM,Jabodetabek,35,8900000,0.0039
+2026-08-31,Registration & SIM,Jawa Barat,29,6400000,0.0045
+2026-08-31,Registration & SIM,Jawa Timur,28,5600000,0.005
+2026-08-31,Registration & SIM,Kalimantan Timur,3,620000,0.0048
+2026-08-31,Registration & SIM,Sulawesi Selatan,14,2200000,0.0064
+2026-08-31,Registration & SIM,Sumatera Utara,25,3100000,0.0081
+2026-08-31,Top-up & Voucher,Jabodetabek,59,8900000,0.0066
+2026-08-31,Top-up & Voucher,Jawa Barat,39,6400000,0.0061
+2026-08-31,Top-up & Voucher,Jawa Timur,32,5600000,0.0057
+2026-08-31,Top-up & Voucher,Kalimantan Timur,12,620000,0.0194
+2026-08-31,Top-up & Voucher,Sulawesi Selatan,11,2200000,0.005
+2026-08-31,Top-up & Voucher,Sumatera Utara,12,3100000,0.0039
+2026-09-07,App & Digital,Jabodetabek,23,8900000,0.0026
+2026-09-07,App & Digital,Jawa Barat,21,6400000,0.0033
+2026-09-07,App & Digital,Jawa Timur,20,5600000,0.0036
+2026-09-07,App & Digital,Kalimantan Timur,3,620000,0.0048
+2026-09-07,App & Digital,Sulawesi Selatan,12,2200000,0.0055
+2026-09-07,App & Digital,Sumatera Utara,16,3100000,0.0052
+2026-09-07,Billing & Charging,Jabodetabek,101,8900000,0.0113
+2026-09-07,Billing & Charging,Jawa Barat,75,6400000,0.0117
+2026-09-07,Billing & Charging,Jawa Timur,44,5600000,0.0079
+2026-09-07,Billing & Charging,Kalimantan Timur,22,620000,0.0355
+2026-09-07,Billing & Charging,Sulawesi Selatan,25,2200000,0.0114
+2026-09-07,Billing & Charging,Sumatera Utara,41,3100000,0.0132
+2026-09-07,Network Quality,Jabodetabek,104,8900000,0.0117
+2026-09-07,Network Quality,Jawa Barat,67,6400000,0.0105
+2026-09-07,Network Quality,Jawa Timur,63,5600000,0.0112
+2026-09-07,Network Quality,Kalimantan Timur,19,620000,0.0306
+2026-09-07,Network Quality,Sulawesi Selatan,35,2200000,0.0159
+2026-09-07,Network Quality,Sumatera Utara,37,3100000,0.0119
+2026-09-07,Others,Jabodetabek,98,8900000,0.011
+2026-09-07,Others,Jawa Barat,60,6400000,0.0094
+2026-09-07,Others,Jawa Timur,62,5600000,0.0111
+2026-09-07,Others,Kalimantan Timur,24,620000,0.0387
+2026-09-07,Others,Sulawesi Selatan,30,2200000,0.0136
+2026-09-07,Others,Sumatera Utara,53,3100000,0.0171
+2026-09-07,Package & Quota,Jabodetabek,81,8900000,0.0091
+2026-09-07,Package & Quota,Jawa Barat,47,6400000,0.0073
+2026-09-07,Package & Quota,Jawa Timur,46,5600000,0.0082
+2026-09-07,Package & Quota,Kalimantan Timur,11,620000,0.0177
+2026-09-07,Package & Quota,Sulawesi Selatan,24,2200000,0.0109
+2026-09-07,Package & Quota,Sumatera Utara,23,3100000,0.0074
+2026-09-07,Registration & SIM,Jabodetabek,43,8900000,0.0048
+2026-09-07,Registration & SIM,Jawa Barat,23,6400000,0.0036
+2026-09-07,Registration & SIM,Jawa Timur,25,5600000,0.0045
+2026-09-07,Registration & SIM,Kalimantan Timur,10,620000,0.0161
+2026-09-07,Registration & SIM,Sulawesi Selatan,10,2200000,0.0045
+2026-09-07,Registration & SIM,Sumatera Utara,24,3100000,0.0077
+2026-09-07,Top-up & Voucher,Jabodetabek,53,8900000,0.006
+2026-09-07,Top-up & Voucher,Jawa Barat,28,6400000,0.0044
+2026-09-07,Top-up & Voucher,Jawa Timur,28,5600000,0.005
+2026-09-07,Top-up & Voucher,Kalimantan Timur,7,620000,0.0113
+2026-09-07,Top-up & Voucher,Sulawesi Selatan,7,2200000,0.0032
+2026-09-07,Top-up & Voucher,Sumatera Utara,12,3100000,0.0039
+2026-09-14,App & Digital,Jabodetabek,35,8900000,0.0039
+2026-09-14,App & Digital,Jawa Barat,25,6400000,0.0039
+2026-09-14,App & Digital,Jawa Timur,25,5600000,0.0045
+2026-09-14,App & Digital,Kalimantan Timur,3,620000,0.0048
+2026-09-14,App & Digital,Sulawesi Selatan,13,2200000,0.0059
+2026-09-14,App & Digital,Sumatera Utara,22,3100000,0.0071
+2026-09-14,Billing & Charging,Jabodetabek,100,8900000,0.0112
+2026-09-14,Billing & Charging,Jawa Barat,70,6400000,0.0109
+2026-09-14,Billing & Charging,Jawa Timur,58,5600000,0.0104
+2026-09-14,Billing & Charging,Kalimantan Timur,16,620000,0.0258
+2026-09-14,Billing & Charging,Sulawesi Selatan,19,2200000,0.0086
+2026-09-14,Billing & Charging,Sumatera Utara,41,3100000,0.0132
+2026-09-14,Network Quality,Jabodetabek,126,8900000,0.0142
+2026-09-14,Network Quality,Jawa Barat,81,6400000,0.0127
+2026-09-14,Network Quality,Jawa Timur,60,5600000,0.0107
+2026-09-14,Network Quality,Kalimantan Timur,22,620000,0.0355
+2026-09-14,Network Quality,Sulawesi Selatan,29,2200000,0.0132
+2026-09-14,Network Quality,Sumatera Utara,39,3100000,0.0126
+2026-09-14,Others,Jabodetabek,102,8900000,0.0115
+2026-09-14,Others,Jawa Barat,62,6400000,0.0097
+2026-09-14,Others,Jawa Timur,59,5600000,0.0105
+2026-09-14,Others,Kalimantan Timur,20,620000,0.0323
+2026-09-14,Others,Sulawesi Selatan,29,2200000,0.0132
+2026-09-14,Others,Sumatera Utara,44,3100000,0.0142
+2026-09-14,Package & Quota,Jabodetabek,68,8900000,0.0076
+2026-09-14,Package & Quota,Jawa Barat,43,6400000,0.0067
+2026-09-14,Package & Quota,Jawa Timur,48,5600000,0.0086
+2026-09-14,Package & Quota,Kalimantan Timur,13,620000,0.021
+2026-09-14,Package & Quota,Sulawesi Selatan,21,2200000,0.0095
+2026-09-14,Package & Quota,Sumatera Utara,20,3100000,0.0065
+2026-09-14,Registration & SIM,Jabodetabek,41,8900000,0.0046
+2026-09-14,Registration & SIM,Jawa Barat,18,6400000,0.0028
+2026-09-14,Registration & SIM,Jawa Timur,23,5600000,0.0041
+2026-09-14,Registration & SIM,Kalimantan Timur,13,620000,0.021
+2026-09-14,Registration & SIM,Sulawesi Selatan,10,2200000,0.0045
+2026-09-14,Registration & SIM,Sumatera Utara,16,3100000,0.0052
+2026-09-14,Top-up & Voucher,Jabodetabek,56,8900000,0.0063
+2026-09-14,Top-up & Voucher,Jawa Barat,27,6400000,0.0042
+2026-09-14,Top-up & Voucher,Jawa Timur,29,5600000,0.0052
+2026-09-14,Top-up & Voucher,Kalimantan Timur,15,620000,0.0242
+2026-09-14,Top-up & Voucher,Sulawesi Selatan,19,2200000,0.0086
+2026-09-14,Top-up & Voucher,Sumatera Utara,19,3100000,0.0061

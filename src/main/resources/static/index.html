@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CX Ticket Trends</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root { --bg: #fff; --fg: #1f2328; --muted: #656d76; --line: #2f6feb; --bad: #cf222e; --known: #9a6700; --border: #d0d7de; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --fg: #e6edf3; --muted: #8d96a0; --line: #4493f8; --bad: #f85149; --known: #d29922; --border: #30363d; }
+  }
+  body { margin: 0; padding: 16px; font: 14px/1.5 system-ui, sans-serif; background: var(--bg); color: var(--fg); }
+  main { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.rule { color: var(--muted); margin: 0 0 16px; }
+  form { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+  select, input, button { font: inherit; padding: 6px 8px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); color: var(--fg); }
+  .chart { position: relative; height: 360px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  .up, .down { color: var(--bad); font-weight: 600; }
+  .known { color: var(--known); }
+  .error { color: var(--bad); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Weekly ticket volume</h1>
+  <p class="rule" id="rule"></p>
+  <form id="filters">
+    <select name="category"><option value="">All categories</option></select>
+    <select name="region"><option value="">All regions</option></select>
+    <input type="date" name="from" aria-label="From">
+    <input type="date" name="to" aria-label="To">
+    <button type="submit">Show</button>
+  </form>
+  <div class="chart"><canvas id="chart"></canvas></div>
+  <p class="error" id="error"></p>
+  <table>
+    <thead><tr><th>Week of</th><th>Tickets</th><th>Expected</th><th>Flag</th><th>Known incident</th></tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+</main>
+<script>
+const CATEGORIES = ["App & Digital", "Billing & Charging", "Network Quality", "Others", "Package & Quota",
+  "Registration & SIM", "Top-up & Voucher"];
+const REGIONS = ["Jabodetabek", "Jawa Barat", "Jawa Timur", "Kalimantan Timur", "Sulawesi Selatan", "Sumatera Utara"];
+const form = document.getElementById("filters");
+CATEGORIES.forEach(c => form.category.add(new Option(c, c)));
+REGIONS.forEach(r => form.region.add(new Option(r, r)));
+const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+let chart;
+
+async function load() {
+  const params = new URLSearchParams([...new FormData(form)].filter(([, v]) => v));
+  const res = await fetch("/trends?" + params);
+  const body = await res.json();
+  document.getElementById("error").textContent = res.ok ? "" : body.detail;
+  if (!res.ok) return;
+  document.getElementById("rule").textContent = body.anomalyRule;
+  const weeks = body.weeks;
+  const pointColor = weeks.map(w => w.anomaly ? css("--bad") : css("--line"));
+  chart?.destroy();
+  chart = new Chart(document.getElementById("chart"), {
+    type: "line",
+    data: {
+      labels: weeks.map(w => w.weekStart),
+      datasets: [
+        { label: "Tickets", data: weeks.map(w => w.tickets), borderColor: css("--line"),
+          pointBackgroundColor: pointColor, pointBorderColor: pointColor,
+          pointRadius: weeks.map(w => w.anomaly ? 6 : 3), tension: 0.2 },
+        { label: "Expected range", data: weeks.map(w => w.expectedHigh), borderColor: css("--border"),
+          borderDash: [4, 4], pointRadius: 0, fill: "+1" },
+        { label: "", data: weeks.map(w => w.expectedLow), borderColor: css("--border"),
+          borderDash: [4, 4], pointRadius: 0 }
+      ]
+    },
+    options: {
+      maintainAspectRatio: false,
+      plugins: { legend: { labels: { color: css("--fg"), filter: i => i.text } } },
+      scales: { x: { ticks: { color: css("--muted") } }, y: { beginAtZero: true, ticks: { color: css("--muted") } } }
+    }
+  });
+  document.getElementById("rows").replaceChildren(...weeks.map(w => {
+    const tr = document.createElement("tr");
+    const expected = w.baseline == null ? "—" : `${Math.round(w.expectedLow)}–${Math.round(w.expectedHigh)}`;
+    const incidents = w.knownIncidents.map(i =>
+      `${i.id} ${i.cause} (${i.region}${i.relation === "previous_week" ? ", ended previous week" : ""})`).join("; ");
+    [w.weekStart, w.tickets, expected, w.anomaly ? w.direction : "", incidents].forEach((v, i) => {
+      const td = document.createElement("td");
+      td.textContent = v;
+      if (i === 3 && v) td.className = v.toLowerCase();
+      if (i === 4 && v) td.className = "known";
+      tr.append(td);
+    });
+    return tr;
+  }));
+}
+form.addEventListener("submit", e => { e.preventDefault(); load(); });
+load();
+</script>
+</body>
+</html>

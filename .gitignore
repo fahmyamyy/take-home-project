@@ -1,0 +1,10 @@
+# Grader answer key shipped with the assignment — intentionally NOT used. See docs/PLANNING.md §4.1
+true_labels.csv
+# Assignment brief (not ours to redistribute)
+*.pdf
+target/
+cx.db
+cx.db-journal
+.idea/
+*.iml
+.DS_Store

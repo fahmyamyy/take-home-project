@@ -1,0 +1,8 @@
+category,total_tickets,median_weekly,slope_tickets_per_week,growth_pct_per_week,last4_vs_prev8,label
+Billing & Charging,5996,218,3.57,1.64,1.3,fastest growing
+Others,8135,304,1,0.33,0.96,large but flat
+App & Digital,3972,117,0.33,0.28,0.49,"top-3, but within noise"
+Registration & SIM,3654,136,0.33,0.25,0.97,
+Network Quality,10509,358,0.4,0.11,0.72,large but flat
+Package & Quota,6221,239,-0.17,-0.07,1.08,large but flat
+Top-up & Voucher,4264,166,-0.3,-0.18,1.01,

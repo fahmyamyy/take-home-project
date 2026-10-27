@@ -1,0 +1,92 @@
+{
+  "window" : {
+    "recent" : "24 Aug – 20 Sep 2026",
+    "baseline" : "29 Jun – 23 Aug 2026",
+    "recentWeeks" : 4,
+    "baselineWeeks" : 8
+  },
+  "volume" : {
+    "recentWeeklyAvg" : 1665,
+    "baselineWeeklyMedian" : 1635,
+    "change" : "+2%"
+  },
+  "needsAttention" : [ {
+    "topic" : "Billing & Charging > Package charged but not active",
+    "customerSays" : "money or balance was deducted for a package, but the package or its quota never arrived",
+    "baselineWeekly" : 109,
+    "recentWeekly" : 186,
+    "change" : "+70%",
+    "weekly" : [ 164, 168, 206, 204 ],
+    "regionsRising" : 6,
+    "regionsTotal" : 6,
+    "explanation" : "Up in 6 of 6 regions; no network incident overlaps it, so it is not an outage effect.",
+    "impact" : {
+      "resolutionHours" : 50,
+      "allResolutionHours" : 31,
+      "reopenRate" : "24%",
+      "allReopenRate" : "18%",
+      "csat" : "3.7",
+      "allCsat" : "3.9"
+    },
+    "notableSegments" : [ "New customers: 16 → 30 a week (+90%)", "High Value customers: 12 → 21 a week (+83%)" ]
+  } ],
+  "watchList" : [ {
+    "topic" : "Others > General enquiry",
+    "customerSays" : "a question about services, not a complaint",
+    "baselineWeekly" : 20,
+    "recentWeekly" : 31,
+    "change" : "+53%",
+    "weekly" : [ 24, 41, 26, 31 ],
+    "regionsRising" : 3,
+    "regionsTotal" : 6,
+    "explanation" : "Small (+11 a week) and within the range seen earlier this year (busiest week: 40). Not escalated.",
+    "impact" : null,
+    "notableSegments" : [ ]
+  }, {
+    "topic" : "Top-up & Voucher > Wrong amount credited",
+    "customerSays" : "top-up arrived but with a smaller amount than paid",
+    "baselineWeekly" : 41,
+    "recentWeekly" : 51,
+    "change" : "+24%",
+    "weekly" : [ 53, 52, 42, 57 ],
+    "regionsRising" : 2,
+    "regionsTotal" : 6,
+    "explanation" : "Small (+10 a week) and within the range seen earlier this year (busiest week: 64). Not escalated.",
+    "impact" : null,
+    "notableSegments" : [ ]
+  } ],
+  "explained" : [ {
+    "what" : "INC000004: planned capacity upgrade in Jabodetabek, 2 Sep–3 Sep (minor)",
+    "explanation" : "No measurable effect: 15 network tickets a day in Jabodetabek during and just after it, vs 17 a day in the 4 weeks before.",
+    "action" : "None."
+  }, {
+    "what" : "Week of 13 Jul: about 1475 extra tickets (Call drop, No signal, Slow data)",
+    "explanation" : "INC000001 (fiber cut on backhaul link in Sumatera Utara, 15 Jul–17 Jul). Volumes are back to normal.",
+    "action" : "None."
+  }, {
+    "what" : "Week of 10 Aug: about 1131 extra tickets (Cannot login)",
+    "explanation" : "No network incident on record; it looks like a one-off product incident and volumes are back to normal.",
+    "action" : "Ask the product team for the post-incident review; not a current issue."
+  } ],
+  "processIssues" : [ {
+    "channel" : "Email",
+    "missRate" : "99%",
+    "baselineMissRate" : "97%",
+    "avgFirstResponseHours" : "12.4",
+    "isNew" : false,
+    "note" : "Not new: the same level as the baseline weeks, so this is how the channel is run, not a recent slip."
+  }, {
+    "channel" : "Social Media",
+    "missRate" : "74%",
+    "baselineMissRate" : "75%",
+    "avgFirstResponseHours" : "4.0",
+    "isNew" : false,
+    "note" : "Not new: the same level as the baseline weeks, so this is how the channel is run, not a recent slip."
+  } ],
+  "dataQuality" : {
+    "unclassifiedShare" : "16%",
+    "unclassifiedThatAreRealComplaints" : "90%",
+    "note" : "Agents file real complaints as 'Unclassified' at the same rate in every channel and region, so official category counts run about 15% low. This brief counts by what the customer wrote."
+  },
+  "method" : [ "Topics come from the customer's note, not the agent's label.", "Baseline is the median week of the previous 8 weeks.", "Escalate only if ≥25% up, ≥20 extra tickets a week, statistically clear, and not explained by a known incident." ]
+}
